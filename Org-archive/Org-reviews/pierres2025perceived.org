@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7D2DEE05-59D7-4CA1-9A56-753AD32CEF56
+:ROAM_REFS: cite:pierres2025perceived
+:mtime:    20250825162910
+:ctime:    20250825162910
+:END:
+#+FILETAGS: pierres2025perceived
+#+title: REVIEW Perceived Risks and Benefits of Disclosing ADHD to AI-based Educational Technologies: Semi-structured Interviews
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: pierres2025perceived
+:URL: https://www.researchsquare.com/article/rs-6106311/v1
+:NOTER_DOCUMENT: ~/Org-docs/pierres2025perceived.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

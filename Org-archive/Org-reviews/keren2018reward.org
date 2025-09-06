@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       DF85DC28-F285-4EFE-850C-37F86D8F3EB1
+:ROAM_REFS: cite:keren2018reward
+:mtime:    20250828132711
+:ctime:    20250828132711
+:END:
+#+FILETAGS: keren2018reward
+#+title: REVIEW Reward Processing in Depression: A Conceptual and Meta-Analytic Review Across fMRI and EEG Studies
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: keren2018reward
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6345602/
+:NOTER_DOCUMENT: ~/Org-docs/keren2018reward.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

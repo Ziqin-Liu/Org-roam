@@ -1,0 +1,18 @@
+
+:PROPERTIES:
+:ID:       FE000E9D-6DDC-4955-8799-F448A9441D75
+:mtime:    20250904225131 20250904130737
+:ctime:    20250904130737
+:END:
+#+FILETAGS: anonymous2026tdpw
+#+title: REVIEW TDPW - Time-Dimensional Privacy Weaving
+* During Reading
+:PROPERTIES:
+:Custom_ID: anonymous2026tdpw
+:URL: 
+:NOTER_DOCUMENT: ~/Org-docs/anonymous2026tdpw.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:
+
++ what is the problem that this paper want to solve?

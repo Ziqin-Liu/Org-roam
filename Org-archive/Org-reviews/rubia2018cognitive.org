@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       DAE362B7-06CE-4270-A016-D1DCD1AF5B00
+:ROAM_REFS: cite:rubia2018cognitive
+:mtime:    20250826120127
+:ctime:    20250826120127
+:END:
+#+FILETAGS: rubia2018cognitive
+#+title: REVIEW Cognitive Neuroscience of Attention Deficit Hyperactivity Disorder (ADHD) and Its Clinical Translation
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: rubia2018cognitive
+:URL: https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2018.00100/full
+:NOTER_DOCUMENT: ~/Org-docs/rubia2018cognitive.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:
+

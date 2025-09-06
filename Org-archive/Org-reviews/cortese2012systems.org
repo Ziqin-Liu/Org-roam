@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       DA7EBFAD-7186-49E6-A287-9CF01809975B
+:ROAM_REFS: cite:cortese2012systems
+:mtime:    20250826094005
+:ctime:    20250826094005
+:END:
+#+FILETAGS: cortese2012systems
+#+title: REVIEW Toward Systems Neuroscience of ADHD: A Meta-Analysis of 55 fMRI Studies
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: cortese2012systems
+:URL: https://psychiatryonline.org/doi/full/10.1176/appi.ajp.2012.11101521
+:NOTER_DOCUMENT: ~/Org-docs/cortese2012systems.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

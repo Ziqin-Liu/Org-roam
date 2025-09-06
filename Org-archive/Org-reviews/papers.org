@@ -1,0 +1,38 @@
+
+
+* A neural substrate of prediction and reward
++ BibTex:[[id:3D57D74C-E204-4A09-99E7-063AD88A126A][schultz1997neural]]
++ Created: [2025-09-02 Tue 09:07]
+
+* Functional MRI and EEG Index Complementary Attentional Modulations
++ BibTex:[[id:352CA3AC-4B02-4199-8C2D-68877475CF99][itthipuripat2019functional]]
++ Created: [2025-09-01 Mon 18:45]
+
+* Reward Processing in Depression: A Conceptual and Meta-Analytic Review Across fMRI and EEG Studies
++ BibTex:[[id:DF85DC28-F285-4EFE-850C-37F86D8F3EB1][keren2018reward]]
++ Created: [2025-08-28 Thu 13:26]
+
+* Emotional dysregulation and Attention-Deficit/Hyperactivity Disorder
++ BibTex:[[id:6CF9920E-30AA-423A-99CD-D65D691D3652][shaw2014emotional]]
++ Created: [2025-08-26 Tue 13:48]
+
+* Cognitive Neuroscience of Attention Deficit Hyperactivity Disorder (ADHD) and Its Clinical Translation
++ BibTex:[[id:DAE362B7-06CE-4270-A016-D1DCD1AF5B00][rubia2018cognitive]]
++ Created: [2025-08-26 Tue 11:57]
+
+* Toward Systems Neuroscience of ADHD: A Meta-Analysis of 55 fMRI Studies
++ BibTex:[[id:DA7EBFAD-7186-49E6-A287-9CF01809975B][cortese2012systems]]
++ Created: [2025-08-26 Tue 09:39]
+
+* Sub-Second Fluctuation between Top-Down and Bottom-Up Modes Distinguishes Diverse Human Brain States
++ BibTex:[[id:E74FB0DB-5822-4F74-9CDF-FB2FD5ED67BB][park2025subsecond]]
++ Created: [2025-08-25 Mon 22:45]
+
+* Perceived Risks and Benefits of Disclosing ADHD to AIbased Educational Technologies: Semi-structured Interviews
++ BibTex:[[id:7D2DEE05-59D7-4CA1-9A56-753AD32CEF56][pierres2025perceived]]
++ Created: [2025-08-25 Mon 16:15]
+
+* PolyJuice: Detecting Mis-compilation Bugs in Tensor Compilers with Equality Saturation Based Rewriting
++ BibTex:[[id:8032BA18-7B1C-4FA2-92DD-4C710AC5580B][zhou2024polyjuice]]
++ Created: [2025-08-23 Sat 15:29]
+

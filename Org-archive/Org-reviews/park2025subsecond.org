@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       E74FB0DB-5822-4F74-9CDF-FB2FD5ED67BB
+:ROAM_REFS: cite:park2025subsecond
+:mtime:    20250825224604
+:ctime:    20250825224604
+:END:
+#+FILETAGS: park2025subsecond
+#+title: REVIEW Sub-Second Fluctuation between Top-Down and Bottom-Up Modes Distinguishes Diverse Human Brain States
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: park2025subsecond
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11952419/
+:NOTER_DOCUMENT: ~/Org-docs/park2025subsecond.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       352CA3AC-4B02-4199-8C2D-68877475CF99
+:ROAM_REFS: cite:itthipuripat2019functional
+:mtime:    20250901184658
+:ctime:    20250901184658
+:END:
+#+FILETAGS: itthipuripat2019functional
+#+title: REVIEW Functional MRI and EEG Index Complementary Attentional Modulations
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: itthipuripat2019functional
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6668200/
+:NOTER_DOCUMENT: ~/Org-docs/itthipuripat2019functional.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

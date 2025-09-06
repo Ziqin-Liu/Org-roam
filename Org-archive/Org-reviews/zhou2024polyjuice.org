@@ -1,0 +1,153 @@
+:PROPERTIES:
+:ID:       8032BA18-7B1C-4FA2-92DD-4C710AC5580B
+:ROAM_REFS: cite:zhou2024polyjuice
+:mtime:    20250827141251 20250826175847 20250823175221 20250823153528
+:ctime:    20250823153528
+:END:
+#+FILETAGS: zhou2024polyjuice
+#+title: REVIEW PolyJuice: Detecting Mis-compilation Bugs in Tensor Compilers with Equality Saturation Based Rewriting
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+- [[#lrm-assisted-javascript-deobfuscation][LRM-assisted JavaScript Deobfuscation]]
+- [[#report][Report]]
+- [[#run-the-source-code][Run the source code]]
+- [[#debug-the-rust][Debug the rust]]
+- [[#understand-the-source-code][Understand the source code]]
+- [[#debug-the-soure-code][Debug the soure code]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: zhou2024polyjuice
+:URL: https://dl.acm.org/doi/10.1145/3689757
+:NOTER_DOCUMENT: ~/Org-docs/zhou2024polyjuice.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:
+
+* [[id:BD18DEB1-8E01-4309-9931-57940B3406CB][LRM-assisted JavaScript Deobfuscation]]
+#+BEGIN_QUOTE
+We will give a quantitative analysis of this insight in Section 6.3.
+#+END_QUOTE
+When formulating my own optimization problem, I also consider how to provide it with a solid theoretical
+foundation and meaningful insight.
+
+* Report
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250812234034_nBhhmR.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813004619_Hg8oNN.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813004825_Hw55fz.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005035_FkP8cn.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005118_XVvKPq.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005236_LcDPVm.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005307_amcUKW.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005726_JDxceX.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005817_0VACq1.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005842_i9xQVy.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813005915_B2gkpT.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813010406_vzVz3R.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250813010624_WzSWK3.png]]
+
+* Run the source code
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809124133_elHz0j.png]]
+
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809124528_n7hDPG.png]]
+[[https://github.com/MahmoudAshraf97/whisper-diarization/issues/83][Problem with a "Hydra" package ?]]
+
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809124635_ufMi3a.png]]
+
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809125621_6rjHZz.png]]
+[[https://discuss.pytorch.org/t/torch-compile-attributeerror-module-z3-has-no-attribute-exprref/195044/8][Torch.compile: AttributeError: module ‘z3’ has no attribute ‘ExprRef’]]
+
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809130601_CPt5uQ.png]]
+[[https://hydra.cc/docs/plugins/colorlog/][Colorlog plugin]]
+
+
+in the linux systems
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250809204949_qUw0V7.png]]
+#+BEGIN_SRC shell
+  python -m pip install --upgrade pip
+  python -m pip install --upgrade setuptools wheel twine check-wheel-contents
+#+END_SRC
+[[https://github.com/pypa/setuptools/issues/4483][[BUG] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero']]
+
+modify the configuration file
+
+* Debug the rust
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250810104558_teM030.png]]
+Include the following configuration entry in the settings.json file
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250810104721_nB0bW5.png]]
+[[https://github.com/rust-lang/rust-analyzer/issues/11673][The terminal process failed to launch: Path to shell executable "cargo" does not exist.]]
+
+However, the attempt to debug the program was unsuccessful. Modify the following configuration entry in the settings.json file.
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250810105107_wdkfBS.png]]
+#+attr_org: :width 30
+[[file:zhou2024polyjuice.org_imgs/20250810105142_4ArxFN.png]]
+
+
+
+* Understand the source code
+#+BEGIN_SRC rust
+  #[derive(Default, Debug, Serialize, Deserialize)]
+    pub struct GraphFromExtern {
+	pub insts: Vec<InstFromExtern>,
+	pub vars: HashMap<String, VarFromExtern>,
+	#[serde(skip)]
+	pub converter: Option<GraphConverter>,
+	#[serde(skip)]
+	pub egraph_runner: Option<Runner<ComputExprIR, AnalysisOfCEIR>>,
+    }
+
+  #[derive(Default, Debug, Clone)]
+  pub struct GraphConverter {
+      pub rec_expr: RecExpr<ComputExprIR>,
+      pub scalar_map: HashMap<i64, Id>,
+      pub symbol_map: HashMap<String, Id>,
+      pub shape_map: HashMap<Vec<usize>, Id>,
+      pub tensor_name_map: HashMap<String, TensorInfo>,
+      pub operator_map: HashMap<Id, OperatorInfo>,
+      pub info_map_of_other_op: HashMap<u64, InfoAttachedWithOtherOp>,
+      pub root: Option<Id>,
+  }
+#+END_SRC
+GraphFromExtern stores information from the external source, while GraphConverter converts the external
+instructions and variables into the internal representation of the e-graph.
+
+#+BEGIN_SRC rust
+  pub struct AnalysisOfCEIR {}
+#+END_SRC
+Why do we need this struct when running the saturation?
+
+
+
+* Debug the soure code
+Linux
+export PYTHONPATH="$PWD"
+export EQ_HELPER_PATH="$PWD/libdl_compiler_fuzzer_helper.so"
+export HYDRA_FULL_ERROR=1
+
+to run in the macos
+
+export PYTHONPATH="$PWD"
+export EQ_HELPER_PATH="$PWD/equality_saturation_helper/rust_helper/target/debug/libdl_compiler_fuzzer_helper.dylib"
+export HYDRA_FULL_ERROR=1

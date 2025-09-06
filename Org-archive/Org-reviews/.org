@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       7242D165-EDAE-4C6A-ABD6-6FCD1660FE26
+:END:
+#+FILETAGS: 
+#+title: REVIEW TDPW - Time-Dimensional Privacy Weaving
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: 
+:URL: 
+:NOTER_DOCUMENT: ~/Org-docs/.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

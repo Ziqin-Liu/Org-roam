@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       3D57D74C-E204-4A09-99E7-063AD88A126A
+:ROAM_REFS: cite:schultz1997neural
+:mtime:    20250903225102 20250902090840
+:ctime:    20250902090840
+:END:
+#+FILETAGS: schultz1997neural
+#+title: REVIEW A neural substrate of prediction and reward
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+- [[#question][Question]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: schultz1997neural
+:URL: 
+:NOTER_DOCUMENT: ~/Org-docs/schultz1997neural.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:
+
+* Question
++ dopamine signal

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       6CF9920E-30AA-423A-99CD-D65D691D3652
+:ROAM_REFS: cite:shaw2014emotional
+:mtime:    20250826134957
+:ctime:    20250826134957
+:END:
+#+FILETAGS: shaw2014emotional
+#+title: REVIEW Emotional dysregulation and Attention-Deficit/Hyperactivity Disorder
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: shaw2014emotional
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4282137/
+:NOTER_DOCUMENT: ~/Org-docs/shaw2014emotional.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

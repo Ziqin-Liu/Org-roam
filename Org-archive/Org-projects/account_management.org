@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       0D908AF1-7147-4500-BCA3-AD38A4AEAE31
+:mtime:    20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
+:ctime:    20250822205026
+:END:
+#+title: Account Management
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#priciple][Priciple]]
+- [[#professional-account][Professional account]]
+  - [[#phone][Phone]]
+  - [[#email][email]]
+  - [[#shop][shop]]
+  - [[#card][card]]
+  - [[#github][Github]]
+  - [[#cloudlab][Cloudlab]]
+  - [[#bank][bank]]
+  - [[#groupme][Groupme]]
+- [[#google-account][Google account]]
+- [[#github-account][Github account]]
+
+* Priciple
+professional account and personal/private account
+
+* Professional account
+** Phone
+
+** email
+*** Professional
++ uconn email:  ziqin.liu@uconn.edu | !!1z8q51898@L
++ pku email: liu-tzechinh@pku.edu
++ gmail: ziqin.liu.work@gmail.com | recovery email: ziqin.liu@hotmail.com | phone: 9592104734 | 22charykim08Za
++ hotmail/outlook: ziqin.liu@hotmail.com | recovery email: ziqin.liu.work@gmail.com | phone: 9592104734 | 22charykim08Za
+
+*** personal
++ Zacharykim.liu@gmail.com |recovery email: ziqin.liu@outlook.com | phone 9592104734 | 26charykim08Za
+
+** shop
++ amazon | Zacharykim.liu@gmail | 9592104734 | u/r^e_Jb2%z+KHU
+
+** card
++ Amazon store card | user name: Zachary | ryz8q5zachal1
+
+** Github
++ a6GhwqP72hYBR!*
+
+** Cloudlab
++ username Tzechinh | email: liu-tzechinh@pku.edu.cn | !YuA3hQrPueRgZq
+
+** bank
++ chase | username: zacharykim0823 | 3!charykim082Za | todo change username and email | email: ziqin.liu@hotmail.com
+
+
+** Groupme
++ email: ziqin.liu.work@gmail.com
++ phone: 9592104734
+* Google account
+
+* Github account

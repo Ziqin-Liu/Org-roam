@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5B4659A1-56A9-4932-88C9-2F094AC66815
+:mtime:    20250823200213
+:ctime:    20250823200213
+:END:
+#+title: Career Documents Upkeep
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#resume][Resume]]
+- [[#cv][Cv]]
+- [[#linkedin][Linkedin]]
+
+* Resume
+* Cv
+* Linkedin

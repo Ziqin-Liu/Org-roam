@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       F2B3B73D-BFE1-4162-B556-6955AAC778ED
+:mtime:    20250823201915
+:ctime:    20250823201915
+:END:
+#+title: CV Draft
+#+filetags:  
+#+AUTHOR: Ziqin Liu
+#+OPTIONS: timestamp:nil toc:nil num:nil date:nil author:nil
+* Summary
+here we go
+** Key skills
+communication
+** Technical skills
+ [[id:BD18DEB1-8E01-4309-9931-57940B3406CB][LRM-assisted JavaScript Deobfuscation]] design patterns
+* Publications
+* Certifications
+* Experience
+* Education
+* Social

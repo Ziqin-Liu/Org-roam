@@ -1,0 +1,354 @@
+:PROPERTIES:
+:ID:       D7F6E847-E0FA-4F58-A40A-D5FEA320099F
+:mtime:    20250906113020 20250906091655 20250904175331 20250903223251 20250902092626 20250901105739 20250831223316 20250831175716 20250830220121 20250829135857 20250828193250 20250827192132 20250827141250 20250826084058 20250824180943
+:ctime:    20250824180943
+:END:
+#+title: Daily Time Audit 2025
+#+filetags:
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-06 Sat 10:28], for Saturday, September 06, 2025.
+| File                                   | Headline                          | Time |
+|----------------------------------------+-----------------------------------+------|
+|                                        | ALL *Total time*                    | *1:50* |
+|----------------------------------------+-----------------------------------+------|
+| inbox_2025.org                         | *File time*                         | *1:24* |
+|                                        | Make Breakfast                    | 0:13 |
+|                                        | Breakfast                         | 0:21 |
+|                                        | Restroom                          | 0:12 |
+|                                        | Morning Essential                 | 0:17 |
+|                                        | Commute                           | 0:21 |
+|----------------------------------------+-----------------------------------+------|
+| learning_differential_privacy_todo.org | *File time*                         | *0:26* |
+|                                        | [[id:FE000E9D-6DDC-4955-8799-F448A9441D75][REVIEW TDPW - Time-Dimensional...]] | 0:26 |
+#+END:
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-04 Thu 17:49], for Thursday, September 04, 2025.
+| File                                                        | Headline                  | Time |
+|-------------------------------------------------------------+---------------------------+------|
+|                                                             | ALL *Total time*            | *7:58* |
+|-------------------------------------------------------------+---------------------------+------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org | *File time*                 | *0:49* |
+|                                                             | Chapter 3                 | 0:49 |
+|-------------------------------------------------------------+---------------------------+------|
+| grad_6000_seminars_in_college_instruction_todo.org          | *File time*                 | *0:19* |
+|                                                             | Collage                   | 0:19 |
+|-------------------------------------------------------------+---------------------------+------|
+| inbox_2025.org                                              | *File time*                 | *3:43* |
+|                                                             | Lunch & email             | 0:21 |
+|                                                             | Restroom                  | 0:18 |
+|                                                             | Morning Essential         | 0:34 |
+|                                                             | Commute                   | 2:08 |
+|                                                             | Dish Washing              | 0:22 |
+|-------------------------------------------------------------+---------------------------+------|
+| kimberly_curry_todo.org                                     | *File time*                 | *0:55* |
+|                                                             | Meeting                   | 0:55 |
+|-------------------------------------------------------------+---------------------------+------|
+| lrm_assisted_javascript_deobfuscation_todo.org              | *File time*                 | *2:12* |
+|                                                             | weekly report and summary | 1:32 |
+|                                                             | Meeting                   | 0:40 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-03 Wed 22:40], for Wednesday, September 03, 2025.
+| File                                                     | Headline                                 |  Time |
+|----------------------------------------------------------+------------------------------------------+-------|
+|                                                          | ALL *Total time*                           | *12:28* |
+|----------------------------------------------------------+------------------------------------------+-------|
+| inbox_2025.org                                           | *File time*                                |  *6:21* |
+|                                                          | Make Breakfast                           |  0:14 |
+|                                                          | Breakfast                                |  0:22 |
+|                                                          | dinner                                   |  0:09 |
+|                                                          | Break                                    |  0:12 |
+|                                                          | Morning Essential                        |  0:29 |
+|                                                          | Commute                                  |  1:25 |
+|                                                          | Psychological test: screen session       |  2:34 |
+|                                                          | Dish Washing                             |  0:22 |
+|                                                          | Uconn Involvement fair 2025 Fall         |  0:34 |
+|----------------------------------------------------------+------------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org           | *File time*                                |  *3:24* |
+|                                                          | [[https://oxc-project.github.io/javascript-parser-in-rust/][Write a JavaScript Parser in Rust]]        |  1:04 |
+|                                                          | Implement depth-first search (DFS)...    |  2:20 |
+|----------------------------------------------------------+------------------------------------------+-------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org | *File time*                                |  *0:43* |
+|                                                          | Class@Young 100                          |  0:43 |
+|----------------------------------------------------------+------------------------------------------+-------|
+| workout_todo.org                                         | *File time*                                |  *2:00* |
+|                                                          | 2-hour light workout: Stair climber &... |  2:00 |
+#+END:
+
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-02 Tue 17:27], for Tuesday, September 02, 2025.
+| File                                                                               | Headline                               | Time |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+|                                                                                    | ALL *Total time*                         | *8:41* |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org                        | *File time*                              | *0:49* |
+|                                                                                    | Chapter 3                              | 0:03 |
+|                                                                                    | Chapter 2 Structure and Function of... | 0:46 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| inbox_2025.org                                                                     | *File time*                              | *3:11* |
+|                                                                                    | Make Breakfast                         | 0:13 |
+|                                                                                    | Breakfast                              | 0:19 |
+|                                                                                    | Make Lunch                             | 0:14 |
+|                                                                                    | Lunch & email                          | 0:47 |
+|                                                                                    | Restroom                               | 0:31 |
+|                                                                                    | Break                                  | 0:06 |
+|                                                                                    | Morning Essential                      | 0:18 |
+|                                                                                    | Commute                                | 0:43 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| lrm_assisted_javascript_deobfuscation_todo.org                                     | *File time*                              | *0:51* |
+|                                                                                    | Implement depth-first search (DFS)...  | 0:51 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| psyc_5470_current_topics_in_developmental_psychology_transcend_proseminar_todo.org | *File time*                              | *0:49* |
+|                                                                                    | [[id:3D57D74C-E204-4A09-99E7-063AD88A126A][REVIEW A neural substrate of...]]        | 0:49 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| the_rust_programming_language_todo.org                                             | *File time*                              | *0:42* |
+|                                                                                    | Chapter 11 Writing Automated Tests     | 0:42 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| uconn_connects_todo.org                                                            | *File time*                              | *0:34* |
+|                                                                                    | Email Leo regarding mentor assignment  | 0:34 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| workout_todo.org                                                                   | *File time*                              | *1:45* |
+|                                                                                    | Back day                               | 1:45 |
+#+END:
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-01 Mon 13:29], for Monday, September 01, 2025.
+| File                                           | Headline                               | Time |
+|------------------------------------------------+----------------------------------------+------|
+|                                                | ALL *Total time*                         | *4:38* |
+|------------------------------------------------+----------------------------------------+------|
+| inbox_2025.org                                 | *File time*                              | *1:09* |
+|                                                | Make Breakfast                         | 0:10 |
+|                                                | Breakfast                              | 0:39 |
+|                                                | Morning Essential                      | 0:20 |
+|------------------------------------------------+----------------------------------------+------|
+| lrm_assisted_javascript_deobfuscation_todo.org | *File time*                              | *0:12* |
+|                                                | Implement initialize_egraph and its... | 0:12 |
+|------------------------------------------------+----------------------------------------+------|
+| the_rust_programming_language_todo.org         | *File time*                              | *0:45* |
+|                                                | Chapter 11 Writing Automated Tests     | 0:45 |
+|------------------------------------------------+----------------------------------------+------|
+| workout_todo.org                               | *File time*                              | *2:32* |
+|                                                | Leg Day                                | 2:32 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-31 Sun 22:33], for Sunday, August 31, 2025.
+| File                                                        | Headline                               |  Time |
+|-------------------------------------------------------------+----------------------------------------+-------|
+|                                                             | ALL *Total time*                         | *13:31* |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org | *File time*                              |  *0:56* |
+|                                                             | Chapter 2 Structure and Function of... |  0:56 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| inbox_2025.org                                              | *File time*                              |  *4:56* |
+|                                                             | Make Breakfast                         |  0:13 |
+|                                                             | Breakfast                              |  0:11 |
+|                                                             | Lunch & email                          |  0:43 |
+|                                                             | Make dinner                            |  0:11 |
+|                                                             | dinner                                 |  0:41 |
+|                                                             | Restroom                               |  0:24 |
+|                                                             | Break                                  |  0:14 |
+|                                                             | Shower                                 |  0:37 |
+|                                                             | Morning Essential                      |  0:24 |
+|                                                             | Commute                                |  1:18 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org              | *File time*                              |  *5:22* |
+|                                                             | make helper structs private by...      |  0:49 |
+|                                                             | Implement initialize_egraph and its... |  3:35 |
+|                                                             | Implement an e-graph-based...          |  0:58 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| the_rust_programming_language_todo.org                      | *File time*                              |  *0:17* |
+|                                                             | Chapter 11 Writing Automated Tests     |  0:17 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| workout_todo.org                                            | *File time*                              |  *2:00* |
+|                                                             | Chest day                              |  2:00 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-30 Sat 22:00], for Saturday, August 30, 2025.
+| File                                                        | Headline                                 |  Time |
+|-------------------------------------------------------------+------------------------------------------+-------|
+|                                                             | ALL *Total time*                           | *11:20* |
+|-------------------------------------------------------------+------------------------------------------+-------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org | *File time*                                |  *0:54* |
+|                                                             | Chapter 2 Structure and Function of...   |  0:54 |
+|-------------------------------------------------------------+------------------------------------------+-------|
+| inbox_2025.org                                              | *File time*                                |  *2:49* |
+|                                                             | Make Breakfast                           |  0:08 |
+|                                                             | Make Lunch                               |  0:16 |
+|                                                             | Lunch & email                            |  0:45 |
+|                                                             | Make dinner                              |  0:06 |
+|                                                             | dinner                                   |  0:20 |
+|                                                             | Restroom                                 |  0:09 |
+|                                                             | Break                                    |  0:46 |
+|                                                             | Community                                |  0:19 |
+|-------------------------------------------------------------+------------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org              | *File time*                                |  *1:22* |
+|                                                             | Understand the...                        |  0:28 |
+|                                                             | Implement an e-graph-based...            |  0:54 |
+|-------------------------------------------------------------+------------------------------------------+-------|
+| the_rust_programming_language_todo.org                      | *File time*                                |  *4:11* |
+|                                                             | Chapter 10 Generic Types, Traits, and... |  4:11 |
+|-------------------------------------------------------------+------------------------------------------+-------|
+| workout_todo.org                                            | *File time*                                |  *2:04* |
+|                                                             | Shoulder Day                             |  2:04 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-29 Fri 13:58], for Friday, August 29, 2025.
+| File                                                     | Headline            | Time |
+|----------------------------------------------------------+---------------------+------|
+|                                                          | ALL *Total time*      | *3:11* |
+|----------------------------------------------------------+---------------------+------|
+| grad_6000_seminars_in_college_instruction_todo.org       | *File time*           | *0:22* |
+|                                                          | Pre-semester survey | 0:22 |
+|----------------------------------------------------------+---------------------+------|
+| inbox_2025.org                                           | *File time*           | *1:16* |
+|                                                          | Breakfast           | 0:58 |
+|                                                          | Morning Essential   | 0:18 |
+|----------------------------------------------------------+---------------------+------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org | *File time*           | *1:33* |
+|                                                          | Meeting             | 0:44 |
+|                                                          | Class@Young 100     | 0:49 |
+#+END:
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-28 Thu 21:10], for Thursday, August 28, 2025.
+| File                                                                               | Headline                              |  Time |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+|                                                                                    | ALL *Total time*                        | *11:31* |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| inbox_2025.org                                                                     | *File time*                             |  *2:16* |
+|                                                                                    | Breakfast                             |  0:17 |
+|                                                                                    | Make Lunch                            |  0:21 |
+|                                                                                    | Lunch & email                         |  0:23 |
+|                                                                                    | Restroom                              |  0:03 |
+|                                                                                    | Community                             |  0:56 |
+|                                                                                    | Parking Permit                        |  0:16 |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org                                     | *File time*                             |  *1:48* |
+|                                                                                    | Understand the...                     |  0:50 |
+|                                                                                    | Meeting                               |  0:58 |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| prof_yuan_hong.org                                                                 | *File time*                             |  *0:40* |
+|                                                                                    | Summary the cognitive science project |  0:40 |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| psyc_5470_current_topics_in_developmental_psychology_transcend_proseminar_todo.org | *File time*                             |  *1:02* |
+|                                                                                    | [[id:DF85DC28-F285-4EFE-850C-37F86D8F3EB1][REVIEW Reward Processing in...]]        |  0:32 |
+|                                                                                    | Meeting                               |  0:30 |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| uconn_connects_todo.org                                                            | *File time*                             |  *2:07* |
+|                                                                                    | Fall 2025 Connects Kickoff@Student... |  2:07 |
+|------------------------------------------------------------------------------------+---------------------------------------+-------|
+| workout_todo.org                                                                   | *File time*                             |  *3:38* |
+|                                                                                    | Stair Climber Workout                 |  1:28 |
+|                                                                                    | Back day                              |  2:10 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-27 Wed 19:20], for Wednesday, August 27, 2025.
+| File                                                                               | Headline                               | Time |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+|                                                                                    | ALL *Total time*                         | *7:42* |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| inbox_2025.org                                                                     | *File time*                              | *3:17* |
+|                                                                                    | Email Parking Services                 | 0:10 |
+|                                                                                    | Make Breakfast                         | 0:05 |
+|                                                                                    | Breakfast                              | 0:23 |
+|                                                                                    | Make Lunch                             | 0:29 |
+|                                                                                    | Lunch & email                          | 0:19 |
+|                                                                                    | dinner                                 | 0:36 |
+|                                                                                    | Restroom                               | 0:09 |
+|                                                                                    | Morning Essential                      | 0:10 |
+|                                                                                    | Community                              | 0:56 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| kay_gruder_todo.org                                                                | *File time*                              | *1:03* |
+|                                                                                    | Meeting                                | 1:03 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org                           | *File time*                              | *1:03* |
+|                                                                                    | Email professor to request a meeting   | 0:11 |
+|                                                                                    | Class@Young 100                        | 0:52 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| psyc_5470_current_topics_in_developmental_psychology_transcend_proseminar_todo.org | *File time*                              | *0:49* |
+|                                                                                    | [[id:DAE362B7-06CE-4270-A016-D1DCD1AF5B00][REVIEW Cognitive Neuroscience of...]]    | 0:49 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| talk_shop_todo.org                                                                 | *File time*                              | *0:45* |
+|                                                                                    | Draft an email to cordinate to Dr....  | 0:45 |
+|------------------------------------------------------------------------------------+----------------------------------------+------|
+| uconn_connects_todo.org                                                            | *File time*                              | *0:45* |
+|                                                                                    | New Common Curriculum                  | 0:37 |
+|                                                                                    | Prepare for Fall 2025 Connects Kickoff | 0:08 |
+#+END:
+
+
+
+
+
+
+
+
+
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-26 Tue 19:29], for Tuesday, August 26, 2025.
+| File                                                                               | Headline                                 |  Time |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+|                                                                                    | ALL *Total time*                           | *10:49* |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+| cognitive_science_an_introduction_to_the_science_of_the_mind_3rd_todo.org          | *File time*                                |  *1:00* |
+|                                                                                    | Introduction: The Challenge of...        |  0:50 |
+|                                                                                    | The Prehistory of Cognitive Science      |  0:10 |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+| inbox_2025.org                                                                     | *File time*                                |  *5:37* |
+|                                                                                    | Make Breakfast                           |  0:18 |
+|                                                                                    | Breakfast                                |  0:37 |
+|                                                                                    | Make Lunch                               |  0:19 |
+|                                                                                    | Lunch & email                            |  0:32 |
+|                                                                                    | Make dinner                              |  0:31 |
+|                                                                                    | dinner                                   |  0:28 |
+|                                                                                    | Restroom                                 |  0:19 |
+|                                                                                    | Break                                    |  2:00 |
+|                                                                                    | Morning Essential                        |  0:04 |
+|                                                                                    | Orientation for consent form             |  0:29 |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org                                     | *File time*                                |  *0:24* |
+|                                                                                    | Understand the run_staturation in...     |  0:24 |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+| psyc_5470_current_topics_in_developmental_psychology_transcend_proseminar_todo.org | *File time*                                |  *3:03* |
+|                                                                                    | [[id:DAE362B7-06CE-4270-A016-D1DCD1AF5B00][REVIEW Cognitive Neuroscience of...]]      |  1:52 |
+|                                                                                    | [[id:DA7EBFAD-7186-49E6-A287-9CF01809975B][REVIEW Toward Systems Neuroscience of...]] |  0:26 |
+|                                                                                    | [[id:E74FB0DB-5822-4F74-9CDF-FB2FD5ED67BB][REVIEW Sub-Second Fluctuation between...]] |  0:13 |
+|                                                                                    | Explore the potential idea for the...    |  0:32 |
+|------------------------------------------------------------------------------------+------------------------------------------+-------|
+| the_rust_programming_language_todo.org                                             | *File time*                                |  *0:45* |
+|                                                                                    | Chapter 13 Functional Language...        |  0:45 |
+#+END:
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-08-24 Sun 18:11], for Sunday, August 24, 2025.
+| File                                           | Headline                      | Time |
+|------------------------------------------------+-------------------------------+------|
+|                                                | ALL *Total time*                | *4:17* |
+|------------------------------------------------+-------------------------------+------|
+| inbox_2025.org                                 | *File time*                     | *2:12* |
+|                                                | Make Lunch                    | 1:18 |
+|                                                | Lunch                         | 0:05 |
+|                                                | Make dinner                   | 0:05 |
+|                                                | dinner                        | 0:29 |
+|                                                | Break                         | 0:15 |
+|------------------------------------------------+-------------------------------+------|
+| lrm_assisted_javascript_deobfuscation_todo.org | *File time*                     | *2:05* |
+|                                                | Implement an e-graph-based... | 2:05 |
+#+END:

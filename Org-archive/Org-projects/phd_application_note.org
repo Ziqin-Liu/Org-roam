@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       837FFF8B-76D6-4F03-82CD-4504233EB567
+:mtime:    20250822000412
+:ctime:    20250822000412
+:END:
+#+title: PhD Application NOTE
+#+filetags:  
+* Table of Contents                                                :toc_2_gh:
+- [[#references][References]]
+
+* References  

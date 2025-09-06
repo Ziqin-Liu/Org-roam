@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       8C54AB87-34D1-4858-ACAA-80FE9A278BD4
+:mtime:    20250821235910
+:ctime:    20250821235910
+:END:
+#+title: PhD Application MEMO
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#references][References]]
+
+* References  

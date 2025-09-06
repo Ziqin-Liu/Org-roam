@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       DAD13AD7-D521-4C74-9120-CFC69B64D91E
+:mtime:    20250822000358
+:ctime:    20250822000358
+:END:
+#+title: PhD Application SUMMARY
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#references][References]]
+
+* References  

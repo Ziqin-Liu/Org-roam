@@ -1,0 +1,125 @@
+:PROPERTIES:
+:ID:       48593397-F3C9-4775-A1DB-BC18C35547DB
+:mtime:    20250902212450 20250902204959 20250901150427 20250827192150 20250827134828 20250827124556 20250826113738 20250825221005
+:ctime:    20250825221005
+:END:
+#+title: PROJECT Talk Shop NOTE
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#week-1-introduction-session-review][Week 1 Introduction Session Review]]
+  - [[#weekly-schedule][Weekly schedule:]]
+- [[#email-template][Email Template]]
+  - [[#speaker-coordination][Speaker Coordination]]
+  - [[#announcement][Announcement]]
+
+* Week 1 Introduction Session Review
+what is the Brag.form use for?
+
+"Facilitators' duties:
+
+Setting the Talk Shop schedule.
+
+At the first meeting of the semester, the primary agenda should be to solicit volunteers to give talks. Encourage various levels of seniority (trainee, postdoc, faculty),
+discipline (psych/ling/slhs/etc.), and program (CNC-CT, NBL, TRANSCEND, etc.) to talk about work at any level, from pitches of future work to already published projects.
+I recommend having a public google sheet with this schedule, so everyone can view and edit."
+
+We did a great job today. Although there are still a few available slots, we can encourage volunteers to take them in the future.
+
+
+"For each date, additionally encourage someone to sign up as a discussant.This person will introduce the talker and chair QnA. If there is no discussant signed up, you will be the de facto discussant."
+
+Did we mention this point today? If not, I think we can address it in our session next Monday. I believe having an external discussant would be very helpful. Sometimes the facilitators may not
+be familiar with the speaker’s project, and if the discussant has expertise in the topic, they would be better suited to introduce the speaker and chair the Q&A.
+
+"Optionally (but I really think it's a good idea), encourage faculty to sign up as 'feedbackers', who will make explicit notes on the talk to share with the speaker afterwards."
+
+One student asked a question about the feedbacker, and I realized we didn’t highlight it today.
+
+For the roles of discussant and feedbacker, I think when we send the announcement email for the talk, we can also encourage volunteers to sign up for these roles.
+
+
+" Coordinating with speakers. Ideally 1-2 weeks before a given speaker's talk, shoot them an email and ask for a title, as well as (optionally) an abstract and a CV/bio.
+The CV/bio should be shared with the discussant, so they can prepare an introduction."
+
+I think the best way to coordinate with the speaker is on Mondays, about two weeks in advance, and make it a routine.
+
+
+"Announcing talks. Each week (usually on Friday), an email should be sent out advertising the next week's talk. This should include the title and abstract of the talk, as well as some boilerplate prose."
+
+
+"Dealing with room tech. You can decide whether to make Talk Shop fully in person or whether to facilitate hybrid participation via WebEx or Teams.
+Especially for remote attendees, the A/V system in the room can be finnicky, and speakers will often require help. You will likely want to get a copy of the speaker's slides ahead of time."
+
+I think the biggest problem is that the previous class might run too long, leaving us without enough time to test the device
+
+"Keeping time. Talk Shop should start at 12:20, and the speaker should finish by 1 to allow at least 10 minutes of questions."
+
+
+** Weekly schedule:
+
+Monday
+
+12:00 — Facilitators meet and test all devices: ensure slides display on the screen, the microphone works, and virtual attendees can both see the slides and hear clearly.
+
+12:20 — Talk Shop begins.
+
+13:00 — Talk Shop ends, followed by a 10-minute Q&A.
+
+Send an email to coordinate with the speaker, requesting a title, abstract, and CV/bio.
+
+Friday
+
+Announce the upcoming Monday’s Talk Shop.
+
+Encourage volunteers to sign up as discussant and feedbacker for the next Monday, and for the following Monday if it has already been scheduled.
+
+
+* Email Template
+** [[https://uconn-my.sharepoint.com/personal/ziqin_liu_uconn_edu/_layouts/15/doc.aspx?sourcedoc={5b18080f-1e52-48db-8167-83c89d7a9800}&action=edit][Speaker Coordination]]
+
+Talk Shop Presentation – Bio, Title, and Abstract Request
+
+
+Dear [Name],
+
+Thank you for signing up to present at Talk Shop on [Day]!
+
+Could you please send me a short bio (or CV if you prefer), along with the title and abstract of your presentation? We’ll use this information to prepare and share the announcement on Friday before the session.
+
+Additionally, if you’re interested in serving as a faculty feedbacker (to provide constructive feedback for the presenter) or volunteering as a discussant (to introduce future presenters and lead the Q&A), please let us know.
+Both roles are an important part of making Talk Shop engaging and supportive.
+
+Looking forward to your talk!
+
+Best,
+[Your Name]
+
+
+Thank you for sending your CV, title and abstract. Everything looks great, and we’ll use this information
+to prepare the Talk Shop announcement for this Friday.
+ Looking forward to your talk!
+
+
+** Announcement
+First Talk of the Year – Dr. William Snyder (Sept. 15)
+
+Hi all,
+
+It was such a pleasure meeting you the Monday before last! I hope you had a great week enjoying this perfect September weather and look forward to seeing you this Monday. I have four important reminders for you all as we start our first official talk of the year.
+
+1. Our speaker will be Dr. William Snyder, Professor of Linguistics at the University of Connecticut. He will present a theoretical account that offers a unified explanation for four prior findings which, taken together, pose a puzzle for existing theories of children’s difficulties with passives. See the full description below.
+
+2. We provide the virtual meeting, so you can join in virtual, here is the link.
+
+3. We need you! We’d love to have more presenters sign up—especially for 10/13, 10/27, and 11/17. Please be sure to include your name and email when signing up. If you’re interested in serving as a faculty feedbacker (to provide constructive feedback for the presenter) or volunteering as a discussant (to introduce future presenters and lead the Q&A), sign up in the corresponding column. Both roles are an important part of making Talk Shop engaging and supportive.
+
+4. Finally, if you haven't already, be sure to sign up on the talk shop listserv. This will be the final email to go out on the other listservs for cognitive science, TRANSCEND, IBACS etc. Apologies to those of you on multiple lists who will get duplicate emails.
+Send an email to listserv@listserv.uconn.edu with the following in the body of the email:​
+Subscribe NameOfList NameOfUser​
+Example: Subscribe TalkShop-L Tim Garcia​
+In the above example, TalkShop-L is the name of the list that the user Tim Garcia would like to Subscribe to.​
+Please note that the Subject should be empty.​
+Talk Shop (PSYC 5500) will meet this Monday, September 09 and each following Monday 12:20-1:10pm in Arjona 143. Talk shop is a student led seminar on the topics of language, cognition, education and neuroscience. It is an excellent forum for doctoral students and professors to give feedback in a relaxed setting and learn more about one another's research. 
+
+
+Can't wait to see you all soon!

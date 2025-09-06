@@ -1,0 +1,1078 @@
+:PROPERTIES:
+:ID:       0EA9B8C4-FEF4-4925-BC51-7E0C07E91981
+:mtime:    20250904072838 20250904065410 20250831145636 20250828085158 20250827223425 20250823102242
+:ctime:    20250823102242
+:END:
+#+title: LRM-assisted JavaScript Deobfuscation SUMMARY
+#+filetags:  
+* Week 0 (-08/27/2025)
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250827223452_lPjtVY.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250827223503_CskpJR.png]]
+
+The LLM
+#+BEGIN_QUOTE
+generate the rewrite rules that I can use in egraph: {
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": true,
+          "object": {
+            "type": "MemberExpression",
+            "computed": true,
+            "object": {
+              "type": "Identifier",
+              "name": "process"
+            },
+            "property": {
+              "type": "Literal",
+              "value": "stdin",
+              "raw": "'stdin'"
+            }
+          },
+          "property": {
+            "type": "Literal",
+            "value": "resume",
+            "raw": "'resume'"
+          }
+        },
+        "arguments": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": true,
+          "object": {
+            "type": "MemberExpression",
+            "computed": true,
+            "object": {
+              "type": "Identifier",
+              "name": "process"
+            },
+            "property": {
+              "type": "Literal",
+              "value": "stdin",
+              "raw": "'stdin'"
+            }
+          },
+          "property": {
+            "type": "Literal",
+            "value": "setEncoding",
+            "raw": "'setEncoding'"
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "utf8",
+            "raw": "'utf8'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": true,
+          "object": {
+            "type": "MemberExpression",
+            "computed": true,
+            "object": {
+              "type": "Identifier",
+              "name": "process"
+            },
+            "property": {
+              "type": "Literal",
+              "value": "stdin",
+              "raw": "'stdin'"
+            }
+          },
+          "property": {
+            "type": "Literal",
+            "value": "on",
+            "raw": "'on'"
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "data",
+            "raw": "'data'"
+          },
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "chunk"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "SRyjwG"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Literal",
+                              "value": "soGcr",
+                              "raw": "'soGcr'"
+                            },
+                            "computed": false,
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "x"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "name": "y"
+                                }
+                              ],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "argument": {
+                                      "type": "BinaryExpression",
+                                      "operator": "+",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "name": "x"
+                                      },
+                                      "right": {
+                                        "type": "Identifier",
+                                        "name": "y"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              "generator": false,
+                              "expression": false,
+                              "async": false
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Literal",
+                              "value": "GjCnd",
+                              "raw": "'GjCnd'"
+                            },
+                            "computed": false,
+                            "value": {
+                              "type": "FunctionExpression",
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "callee"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "name": "param1"
+                                }
+                              ],
+                              "body": {
+                                "type": "BlockStatement",
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "argument": {
+                                      "type": "CallExpression",
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "name": "callee"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "name": "param1"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "generator": false,
+                              "expression": false,
+                              "async": false
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "nums"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": true,
+                          "object": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "computed": true,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "chunk"
+                              },
+                              "property": {
+                                "type": "Literal",
+                                "value": "trim",
+                                "raw": "'trim'"
+                              }
+                            },
+                            "arguments": []
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "value": "split",
+                            "raw": "'split'"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "\n",
+                            "raw": "'\\x0a'"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "FunctionDeclaration",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "digit"
+                  },
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "name": "e"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "VariableDeclaration",
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "id": {
+                              "type": "Identifier",
+                              "name": "a"
+                            },
+                            "init": {
+                              "type": "CallExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "computed": true,
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "e"
+                                },
+                                "property": {
+                                  "type": "Literal",
+                                  "value": "split",
+                                  "raw": "'split'"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "value": " ",
+                                  "raw": "'\\x20'"
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "kind": "var"
+                      },
+                      {
+                        "type": "VariableDeclaration",
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "id": {
+                              "type": "Identifier",
+                              "name": "wa"
+                            },
+                            "init": {
+                              "type": "CallExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "computed": true,
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "SRyjwG"
+                                },
+                                "property": {
+                                  "type": "Literal",
+                                  "value": "soGcr",
+                                  "raw": "'soGcr'"
+                                }
+                              },
+                              "arguments": [
+                                {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "computed": true,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "SRyjwG"
+                                    },
+                                    "property": {
+                                      "type": "Literal",
+                                      "value": "GjCnd",
+                                      "raw": "'GjCnd'"
+                                    }
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "name": "parseInt"
+                                    },
+                                    {
+                                      "type": "MemberExpression",
+                                      "computed": true,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "name": "a"
+                                      },
+                                      "property": {
+                                        "type": "Literal",
+                                        "value": 0,
+                                        "raw": "0x0"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "CallExpression",
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "computed": true,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "SRyjwG"
+                                    },
+                                    "property": {
+                                      "type": "Literal",
+                                      "value": "GjCnd",
+                                      "raw": "'GjCnd'"
+                                    }
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "name": "parseInt"
+                                    },
+                                    {
+                                      "type": "MemberExpression",
+                                      "computed": true,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "name": "a"
+                                      },
+                                      "property": {
+                                        "type": "Literal",
+                                        "value": 1,
+                                        "raw": "0x1"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "kind": "var"
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "MemberExpression",
+                          "computed": true,
+                          "object": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "computed": true,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "wa"
+                              },
+                              "property": {
+                                "type": "Literal",
+                                "value": "toString",
+                                "raw": "'toString'"
+                              }
+                            },
+                            "arguments": []
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "value": "length",
+                            "raw": "'length'"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "generator": false,
+                  "expression": false,
+                  "async": false
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "MemberExpression",
+                      "computed": true,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "console"
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "value": "log",
+                        "raw": "'log'"
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": true,
+                          "object": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "MemberExpression",
+                              "computed": true,
+                              "object": {
+                                "type": "Identifier",
+                                "name": "nums"
+                              },
+                              "property": {
+                                "type": "Literal",
+                                "value": "map",
+                                "raw": "'map'"
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "digit"
+                              }
+                            ]
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "value": "join",
+                            "raw": "'join'"
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "\n",
+                            "raw": "'\\x0a'"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "generator": false,
+            "expression": false,
+            "async": false
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+#+END_QUOTE
+
+The first version
+#+BEGIN_QUOTE
+Got it 👍 You pasted a full ESTree-style AST (JavaScript source as JSON), and you want me to generate **rewrite rules for use in an e-graph** (probably `egg` or something similar).
+
+Let me break this down:
+
+### 1. What this JS program does
+
+* Sets up `process.stdin` to resume and use UTF-8.
+* Reads input lines (`chunk.split("\n")`).
+* Defines helper object `SRyjwG` with:
+
+  * `soGcr(x,y) = x+y`
+  * `GjCnd(callee, param1) = callee(param1)` (basically apply function).
+* Defines a function `digit(e)` that:
+
+  1. Splits `e` by space.
+  2. Converts two tokens to integers via `parseInt`.
+  3. Adds them (`soGcr(...)`).
+  4. Returns length of the string form of the result.
+* Finally: `console.log(nums.map(digit).join("\n"));`
+
+So in simpler math terms, each line of input has two numbers → sum them → take the number of digits in the sum → print results line by line.
+
+---
+
+### 2. Candidate rewrite rules
+
+The point of an e-graph is to capture equivalences. Here are natural ones from this program:
+
+#### Function call indirection
+
+```egg
+(apply f x)  ↔  (f x)
+```
+
+(Your `GjCnd` is literally this indirection.)
+
+#### Object method wrapper
+
+```egg
+(SRyjwG.soGcr x y)  ↔  (+ x y)
+(SRyjwG.GjCnd f x)  ↔  (f x)
+```
+
+#### String/number conversions
+
+```egg
+(length (toString n))  ↔  (numDigits n)
+```
+
+(You might introduce a `numDigits` operator in your IR.)
+
+#### Split + join identities
+
+```egg
+(join (split s sep) sep)  ↔  s
+```
+
+#### ParseInt equivalence
+
+```egg
+(parseInt x)  ↔  (int x)
+```
+
+---
+
+### 3. Example rewrite rules in Rust + egg
+
+If you’re using `egg`, something like:
+
+```rust
+rewrite!("apply-inline";
+    "(SRyjwG.GjCnd ?f ?x)" => "(?f ?x)"),
+
+rewrite!("sum-inline";
+    "(SRyjwG.soGcr ?x ?y)" => "(+ ?x ?y)"),
+
+rewrite!("parse-int";
+    "(parseInt ?x)" => "(int ?x)"),
+
+rewrite!("num-digits";
+    "(length (toString ?n))" => "(numDigits ?n)"),
+```
+
+---
+
+### 4. Why this helps
+
+Once these rules are in your e-graph, you can:
+
+* Collapse away the obfuscation (`GjCnd`, `soGcr`).
+* Replace string-based operations with cleaner arithmetic (`numDigits`).
+* Possibly discover optimizations (e.g., `(join (split s sep) sep)` → `s`).
+
+---
+
+👉 Question for you: do you want me to **generate the full set of rules automatically by pattern-matching this AST** (so it looks like a machine translation), or do you prefer a **hand-picked set of meaningful equivalences** like the ones above?
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+but in the egraph, the language I define is not simply the raw javascript, here is the language I define: define_language! { pub enum JsLanguage { "arrayExpression" = ArrayExpression([Id; 1]), // elements "arrayPattern" = ArrayPattern([Id; 1]), // elements "arrowFunctionExpression" = ArrowFunctionExpression([Id; 6]), // id, params, body, generator, expresion, async "assignmentExpression" = AssignmentExpression([Id; 3]), // operator, left, right "assignmentPattern" = AssignmentPattern([Id; 2]), // left, right "asyncArrowFunctionExpression" = AsyncArrowFunctionExpression([Id; 6]), // id, params, body, generator, expresion, async "asyncFunctionDeclaration" = AsyncFunctionDeclaration([Id; 6]), // id, params, body, generator, expression, async "asyncFunctionExpression" = AsyncFunctionExpression([Id; 6]), // id, params, body, generator, expression, async "awaitExpression" = AwaitExpression([Id; 1]), // argument "binaryExpression" = BinaryExpression([Id; 3]), // operator, left, right "blockStatement" = BlockStatement([Id; 1]), // body "breakStatement" = BreakStatement([Id; 1]), // label "callExpression" = CallExpression([Id; 3]), // callee, arguments, optional "catchClause" = CatchClause([Id; 2]), // param, body "chainExpression" = ChainExpression([Id; 1]), // expression "classBody" = ClassBody([Id; 1]), // body "classDeclaration" = ClassDeclaration([Id; 3]), // id, superClass, body "classExpression" = ClassExpression([Id; 3]), // id, superClass "computedMemberExpression" = ComputedMemberExpression([Id; 4]), // computed, object, property, optional "conditionalExpression" = ConditionalExpression([Id; 3]), // test, consequent, alternate "continueStatement" = ContinueStatement([Id; 1]), // label // how to handle this? // "debuggerStatement" = DebuggerStatement([]), // no children "Directive" = Directive([Id; 1]), // expression, directive "doWhileStatement" = DoWhileStatement([Id; 2]), // body, test // "emptyStatement" = EmptyStatement([]), // no children "exportAllDeclaration" = ExportAllDeclaration([Id; 1]), // source "exportDefaultDeclaration" = ExportDefaultDeclaration([Id; 1]), // declaration "exportNamedDeclaration" = ExportNamedDeclaration([Id; 3]), // declaration, specifiers, source "exportSpecifier" = ExportSpecifier([Id; 2]), // exported, local "expressionStatement" = ExpressionStatement([Id; 1]), // expression "forInStatement" = ForInStatement([Id; 3]), // left, right, body, each "forOfStatement" = ForOfStatement([Id; 3]), // await, left, right, body "forStatement" = ForStatement([Id; 4]), // init, test, update, body "functionDeclaration" = FunctionDeclaration([Id; 6]), // id, params, body, generator, expression, async "functionExpression" = FunctionExpression([Id; 6]), // id, params, body, generator, expression, async "identifier" = Identifier([Id; 1]), // name "ifStatement" = IfStatement([Id; 3]), // test, consequent, alternate // "import" = Import([]), // no children "importDeclaration" = ImportDeclaration([Id; 2]), // specifiers, source "importDefaultSpecifier" = ImportDefaultSpecifier([Id; 1]), // local "importNamespaceSpecifier" = ImportNamespaceSpecifier([Id; 1]), // local "importSpecifier" = ImportSpecifier([Id; 2]), // local, imported "labeledStatement" = LabeledStatement([Id; 2]), // label, body "literal" = Literal([Id; 2]), // value, raw "metaProperty" = MetaProperty([Id; 2]), // meta, property "methodDefinition" = MethodDefinition([Id; 5]), // key, computed, value, kind, static "module" = Module([Id; 1]), // body, sourceType "newExpression" = NewExpression([Id; 2]), // callee, arguments "objectExpression" = ObjectExpression([Id; 1]), // properties "objectPattern" = ObjectPattern([Id; 1]), // properties "property" = Property([Id; 6]), // key, computed, value, kind, method, shorthand "regexpLiteral" = RegexpLiteral([Id; 2]), // value, raw, regex "restElement" = RestElement([Id; 1]), // argument "returnStatement" = ReturnStatement([Id; 1]), // argument "scipt" = Script([Id; 2]), // body, sourceType "sequenceExpression" = SequenceExpression([Id; 1]), // expressions "spreadElement" = SpreadElement([Id; 1]), // argument "staticMemberExpression" = StaticMemberExpression([Id; 4]), // computed, object, property, optional // "super" = Super([]), // no children "switchCase" = SwitchCase([Id; 2]), // test, consequent "switchStatement" = SwitchStatement([Id; 2]), // discriminant, cases "taggedTemplateExpression" = TaggedTemplateExpression([Id; 2]), // tag, quasi "templateElement" = TemplateElement([Id; 2]), // value, tail "templateLiteral" = TemplateLiteral([Id; 2]), // quasis, expressions // "thisExpression" = ThisExpression([]), // no children "throwStatement" = ThrowStatement([Id; 1]), // argument "tryStatement" = TryStatement([Id; 3]), // block, handler, finalizer "unaryExpression" = UnaryExpression([Id; 2]), // operator, argument, prefix "updateExpression" = UpdateExpression([Id; 3]), // operator, argument, prefix "variableDeclaration" = VariableDeclaration([Id; 2]), // declarations, kind "variableDeclarator" = VariableDeclarator([Id; 2]), // id, init "whileStatement" = WhileStatement([Id; 2]), // test, body "withStatement" = WithStatement([Id; 2]), // object, body "yieldExpression" = YieldExpression([Id; 2]), // argument, delegate "elements" = Elements(Vec<Id>), // variable-length list of element IDs } }
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Perfect, thanks for sharing your `JsLanguage` definition 🙌 That changes the game — now we’re not rewriting over *raw JavaScript syntax*, but over an **AST-based e-graph language** you designed.
+
+Let me unpack what’s going on and why `A` and rewrite rules matter here.
+
+---
+
+### 1. What your `define_language!` means
+
+You’ve declared `JsLanguage` as the set of *operators* for your e-graph.
+Each node type (e.g., `CallExpression`, `BinaryExpression`, `Identifier`, `Literal`) is a constructor with child IDs.
+
+So instead of working with `"SRyjwG.soGcr(x,y)"` as a string, your e-graph will store something like:
+
+```
+(CallExpression (StaticMemberExpression object="SRyjwG" property="soGcr") [x, y])
+```
+
+This gives you a **structural representation** of the program.
+
+---
+
+### 2. Why `A: Analysis<L>` (from your earlier `rules<A>()`)
+
+The `Analysis` trait in `egg` lets you attach **extra semantic info** to each e-class.
+
+* For nodes: you can compute things like constant folding (`(+ 2 3)` → `5`).
+* For edges: not directly stored, but you can encode relationships via node info.
+
+For example, you might store:
+
+* `"literal" = Literal([value, raw])` → Analysis could track the actual integer value.
+* `"identifier" = Identifier([name])` → Analysis could map names to known bindings.
+
+This lets your rules be more powerful, because they can rely on *semantic equivalence* instead of only syntactic patterns.
+
+---
+
+### 3. Rewrite rules in your AST language
+
+Now, taking your earlier JS program (with obfuscated helpers), the rewrite rules look like:
+
+#### Function-call indirection (`GjCnd`)
+
+```rust
+rewrite!("apply-indirection";
+    "(CallExpression (StaticMemberExpression ?obj ?prop) [?f ?x ?opt])"
+        if is_member_eq("?obj", "SRyjwG") && is_property_eq("?prop", "GjCnd")
+    =>
+    "(CallExpression ?f [?x ?opt])"
+)
+```
+
+That means: if you see `SRyjwG.GjCnd(f, x)` → just `f(x)`.
+
+---
+
+#### Addition helper (`soGcr`)
+
+```rust
+rewrite!("sum-indirection";
+    "(CallExpression (StaticMemberExpression ?obj ?prop) [?x ?y ?opt])"
+        if is_member_eq("?obj", "SRyjwG") && is_property_eq("?prop", "soGcr")
+    =>
+    "(BinaryExpression \"+\" ?x ?y)"
+)
+```
+
+So `(SRyjwG.soGcr 2 3)` → `(BinaryExpression "+" 2 3)`.
+
+---
+
+#### ParseInt simplification
+
+```rust
+rewrite!("parse-int";
+    "(CallExpression (Identifier \"parseInt\") [?x ?opt])"
+    =>
+    "(UnaryExpression \"toInt\" ?x)"
+)
+```
+
+This replaces `parseInt("42")` with something like `toInt(42)` in your IR.
+
+---
+
+#### String length of number
+
+```rust
+rewrite!("digit-count";
+    "(MemberExpression (CallExpression (Identifier \"toString\") [?n]) (Identifier \"length\"))"
+    =>
+    "(CallExpression (Identifier \"numDigits\") [?n])"
+)
+```
+
+So `"".length(toString(n))` becomes `numDigits(n)`.
+
+---
+
+### 4. Where this gets tricky
+
+Notice that your language is **big** (over 80 node types!). You won’t want to write rewrites for everything. Instead:
+
+* Focus on **semantic normalization rules** (like unwrapping helpers, folding string ops, constant folding).
+* Use `Analysis` to **evaluate constants** (so `BinaryExpression "+" 2 3` → `Literal 5`).
+
+---
+
+✅ So in summary:
+
+* `A: Analysis<L>` = how you attach meaning to AST nodes.
+* Rewrite rules = patterns over your **AST-language**, not raw JS strings.
+* You’ll gradually build a *normalization system* that strips away obfuscation → canonical AST.
+
+---
+
+Would you like me to **take one of the actual AST fragments from your pasted program** (e.g., the `soGcr` function or the `digit` function) and write out what its **step-by-step rewrites** would look like in your `JsLanguage`? That way you can see how the obfuscated JS gets simplified in your e-graph.
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+but it seems the rewrite rules only can be apply to this program? Like the SRyjwG are specific to this program, is it possible to make it more general?
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Excellent observation 👍 You’re absolutely right — if you write a rewrite like
+
+```rust
+rewrite!("apply-indirection";
+   "(CallExpression (StaticMemberExpression (Identifier \"SRyjwG\") (Identifier \"GjCnd\")) [?f ?x])"
+    =>
+   "(CallExpression ?f [?x])"
+)
+```
+
+…it only works on *this* program, because `SRyjwG` is a hard-coded helper object that only exists in this obfuscated bundle.
+
+---
+
+### 🔑 Two ways to make rewrite rules more general
+
+#### 1. **Parametric rules with wildcards**
+
+Instead of matching *exactly* `"SRyjwG"`, you match *any object* and *any property name* that behaves like an indirection.
+For example:
+
+```rust
+rewrite!("indirection-call";
+    "(CallExpression (StaticMemberExpression ?obj ?prop) [?f ?x])"
+        if is_indirection_property(?obj, ?prop)
+    =>
+    "(CallExpression ?f [?x])"
+)
+```
+
+Here:
+
+* `is_indirection_property` is a custom condition you write (in Rust).
+* It checks whether the property name (like `GjCnd`, `soGcr`, `uohyb`) is *semantically an indirection helper*.
+* You could detect this by analyzing the original function definition during `Analysis`.
+
+---
+
+#### 2. **Lift semantics from definitions**
+
+Notice in your obfuscated program:
+
+```js
+var SRyjwG = {
+  GjCnd: function (f, x) { return f(x); },
+  soGcr: function (x, y) { return x + y; },
+  ...
+}
+```
+
+That means `"SRyjwG.GjCnd"` is equivalent to `"λf,x. f(x)"`.
+
+👉 If you parse the object literal (`ObjectExpression`) into the e-graph, you can *record in the Analysis* that
+
+* `SRyjwG.GjCnd` = identity-call helper
+* `SRyjwG.soGcr` = addition helper
+
+Then your rules can be *general*:
+
+```rust
+rewrite!("apply-helper";
+    "(CallExpression (StaticMemberExpression ?obj ?prop) ?args)"
+        if analysis_says_helper(?obj, ?prop, "function-call")
+    =>
+    "(CallExpression (first ?args) (rest ?args))"
+)
+```
+
+That way, **any obfuscation object with the same pattern** (not just `SRyjwG`) will be simplified.
+
+---
+
+#### 3. **Why this matters**
+
+* If you bake in `"SRyjwG"` → rules only work on *this file*.
+* If you generalize using `Analysis`, the rules will work on *all obfuscators that generate helper objects*.
+
+That’s the usual approach in e-graphs:
+
+* **Syntax pattern** captures the general shape.
+* **Analysis condition** ensures semantic correctness.
+
+---
+
+✅ So the answer is:
+Yes, it’s possible to make rewrite rules general — you just need to lift the helper-object semantics into `Analysis` and then write rules that check for *helper behavior*, not *helper names*.
+
+---
+
+Would you like me to show you how to implement a **custom `Analysis` that detects these helper functions** (like `x+y`, `f(x)`, etc.), so your rewrites stop relying on specific names like `SRyjwG`?
+
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+but wait it seems there are a lot of helper function that I need to write?
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+it is no what I mean. I mean in the rewrite rules you generate, there are some helper functions, like:  analysis_says_helper(?obj, ?prop, "function-call") and is_indirection_property(?obj, ?prop). who is responsible to write these function?
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Ahhh I see what you mean now — you’re asking:
+
+👉 *those predicates I wrote in the rewrites (`analysis_says_helper`, `is_indirection_property`), where do they come from, and who implements them?*
+
+Great question. Let’s unpack carefully.
+
+---
+
+### 1. Where do those functions live?
+
+Those aren’t *built into* `egg` or Rust.
+They’re **your own helper functions / conditions** you define as part of your rewrite system.
+
+* `egg` gives you the framework:
+
+  * `Rewrite<L, A>` stores a search pattern + replacement pattern + optional condition.
+  * `Condition` is basically a predicate `(EGraph, Subst) -> bool`.
+
+* *You* implement the actual condition checkers like `analysis_says_helper(...)`.
+
+So, when I wrote them earlier, I was sketching the *idea* of what conditions might look like — but you’d need to implement them.
+
+---
+
+### 2. Example: `analysis_says_helper`
+
+Suppose you want to know if `obj.prop` corresponds to a helper function you already classified during `Analysis`.
+
+You’d define in your `Analysis` data something like:
+
+```rust
+#[derive(Debug, Clone, PartialEq)]
+pub enum HelperKind {
+    FunctionCall,
+    Add,
+    Sub,
+    Unknown,
+}
+
+#[derive(Debug, Clone)]
+pub struct JsAnalysisData {
+    pub helper_kind: Option<HelperKind>,
+}
+```
+
+Then your `Analysis` impl populates this `helper_kind` when it sees an `ObjectExpression` with a property like `function (f, x) { return f(x); }`.
+
+Now your condition function might look like:
+
+```rust
+fn analysis_says_helper(
+    egraph: &EGraph<JsLanguage, JsAnalysis>,
+    subst: &Subst,
+    var: Var,
+    kind: HelperKind,
+) -> bool {
+    let id = subst[var];
+    let data = &egraph[id].data;
+    data.helper_kind == Some(kind)
+}
+```
+
+So in your rewrite rule you can write:
+
+```rust
+rewrite!(
+    "inline-function-call-helper",
+    // search pattern
+    "(call (getprop ?obj ?prop) ?f ?x)",
+    // replace pattern
+    "(call ?f ?x)",
+    // condition
+    if analysis_says_helper("?obj", "?prop", HelperKind::FunctionCall)
+)
+```
+
+---
+
+### 3. Example: `is_indirection_property`
+
+That’s another custom checker. Maybe you just check if a property name matches an indirection style (like one-character gibberish keys).
+
+```rust
+fn is_indirection_property(
+    egraph: &EGraph<JsLanguage, JsAnalysis>,
+    subst: &Subst,
+    prop_var: Var,
+) -> bool {
+    let id = subst[prop_var];
+    if let JsLanguage::Identifier([name_id]) = &egraph[id].nodes[0] {
+        let name = &egraph[*name_id].data.string_value;
+        // heuristic: short random names = obfuscator props
+        name.len() <= 3 || name.chars().all(|c| c.is_ascii_alphabetic())
+    } else {
+        false
+    }
+}
+```
+
+---
+
+### 4. Who writes them?
+
+✅ You.
+Because `egg` doesn’t know what your JS language means. It just manipulates e-graphs.
+All the **domain-specific conditions** like “is this helper an indirection?” or “is this property the call-wrapper?” must be written by you, using your own analysis results.
+
+---
+
+🔑 So the workflow is:
+
+1. Define `Analysis::Data` to carry semantic tags (helper kinds, literal values, etc).
+2. Write condition functions that check those tags or apply heuristics.
+3. Use those functions in `Rewrite` rules.
+
+---
+
+Would you like me to **show you a complete small Rust example** (with one helper detection + one rewrite rule that uses it), so you can see how all the pieces fit together end-to-end?
+
+#+END_QUOTE
+
+
+* Week 3
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904065511_rRncb7.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904065542_ygdBOp.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904065656_VA8GWf.png]]
+
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070258_psoIfT.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070339_uHUXvX.png]]
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070552_dp1cIq.png]]
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070759_xlRXhz.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070814_k5blXc.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070832_0xSeiq.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904070846_MWEKdh.png]]
+
+ref: https://docs.rs/syn/latest/src/syn/expr.rs.html
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904071117_Zq9FJf.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904071209_Cec08k.png]]
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904071430_4Xyx3p.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904071522_k6XHCK.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904072025_k4enGr.png]]
+
+ref: https://github.com/swc-project/swc/blob/main/crates/swc_ecma_ast/src/expr.rs
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904072814_WyYfpC.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904072920_kgK0yf.png]]
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073119_j1M3Eu.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073524_X4NVKy.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073539_YAw8R6.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073551_8SNPGg.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073601_W3B1Xo.png]]
+about 3 the type name
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904073651_cLieWV.png]]
+
+ref: https://docs.rs/syn/latest/src/syn/expr.rs.html#279-288
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904075212_zebJLu.png]]
+
+stack overflow
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904075603_QHWzU5.png]]
+memory allocations
+https://oxc-project.github.io/javascript-parser-in-rust/docs/ast

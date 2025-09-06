@@ -1,0 +1,114 @@
+:PROPERTIES:
+:ID:       7F51A9A7-E9D0-4D6A-974A-2F164E8F4C6D
+:mtime:    20250904224820 20250903152517 20250831152359 20250831142501 20250830200755 20250824154417 20250823184412
+:ctime:    20250823184412
+:END:
+#+title: LRM-assisted JavaScript Deobfuscation NOTE
+#+filetags:  
+
+* Implement an e-graph-based deobfuscation engine for JavaScript
+** Do I need a rust struct to represent the nodes in the AST tree, like
+  #+BEGIN_SRC js
+    export class UpdateExpression {
+    readonly type: string;
+    readonly operator: string;
+    readonly argument: Expression;
+    readonly prefix: boolean;
+    constructor(operator, argument, prefix) {
+	this.type = Syntax.UpdateExpression;
+	this.operator = operator;
+	this.argument = argument;
+	this.prefix = prefix;
+    }
+    }
+  #+END_SRC
++ How can I transfer the null in typescript into rust code?
+
++ Visitor pattern
+
+** How to design the code
+Getting the nodes of an AST for analysis requires you to **traverse** the tree. Traversal is the process of visiting each node in the tree in a systematic order. The method you choose depends on what you need to do with the nodes.
+
+There are three common traversal strategies:
+
+1.  **Depth-First Traversal**: This strategy explores as far as possible along each branch before backtracking. It's best for operations that need to see the "full picture" of a branch, such as type-checking a variable's scope or evaluating an expression.
+
+      * **Pre-order**: Visit the current node, then its children from left to right.
+      * **In-order**: Visit the left child, then the current node, then the right child. This is mainly used for binary trees.
+      * **Post-order**: Visit all the children, then the current node. This is ideal for code generation or calculating expression values.
+
+2.  **Breadth-First Traversal**: This strategy visits all nodes at the current depth level before moving on to the next level. This is useful for things like pretty-printing or finding all nodes of a certain type at a specific level of the tree.
+
+3.  **The Visitor Pattern**: This is a powerful, object-oriented design pattern that's often used with ASTs. Instead of writing a single traversal function, you define a `Visitor` trait with a method for each type of node. The traversal logic is then separated from the actions you want to perform on each node. This makes your code more modular and easier to extend.
+
+-----
+
+## Practical Implementation in Rust
+
+To traverse your Rust-based AST, you'll typically write a function that takes a node and a mutable reference to a `context` or `state` object. This function will use a `match` expression to handle the different `enum` variants (the nodes).
+
+Here's a simplified example of a pre-order, depth-first traversal:
+
+```rust
+// Assuming you have your AST enum defined like this
+enum Expression {
+    Binary { op: String, left: Box<Expression>, right: Box<Expression> },
+    Literal(i32),
+    // ...other variants
+}
+
+// A simple function to walk the tree
+fn traverse_ast(node: &Expression) {
+    match node {
+        Expression::Binary { op, left, right } => {
+            // First, visit the current node (pre-order)
+            println!("Visiting Binary Expression with operator: {}", op);
+
+            // Then, recursively visit the children
+            traverse_ast(left);
+            traverse_ast(right);
+        }
+        Expression::Literal(value) => {
+            // Visit a leaf node
+            println!("Visiting Literal: {}", value);
+        }
+        // ...other match arms
+    }
+}
+```
+
+This basic pattern can be adapted to any traversal strategy by changing the order of the recursive calls within the `match` arms. If you need to perform different actions for different analysis tasks, the **Visitor pattern** is a more scalable approach.
+
+** Read the source code of syn
++ how syn avoid recursive definition and the underlying mechanism
++ Recursive fields are boxed inside the struct, not at the enum variant level
+
+* The high-level design
+initial graph
+
+if have exisiting rules:
+  rules = rules()
+  run saturation(rules)
+
+
+while (time, iteration, optimization)
+  extract a subgraph # randomly pick up?
+  call llm to generate the writing rules
+  if no new rules:
+     continue
+  golden verifier # 
+  rules = rules()
+  run saturation # here, we might need to design a schedule algorithm, intuitlly, the newly generated rules should be apply
+
+  
+** initial egraph
+** extract a sub-egraph
+** call LLM to generate rules
+** run saturation
+
+* The potential problem
++ memory allocation
++ Employing a recursive approach to tree traversal may lead to a stack overflow.
+
+* Implementation note:
++  In Esprima, `AsyncFunctionDeclaration` is not given a separate type name. Both async and non-async functions are classified as `FunctionDeclaration`. The only distinction lies in the `async` field.

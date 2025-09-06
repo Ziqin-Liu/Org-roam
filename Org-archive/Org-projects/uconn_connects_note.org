@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       BE5316E9-E0CE-42B7-896C-113E2CCF8E00
+:mtime:    20250827142109
+:ctime:    20250827142109
+:END:
+#+title:PROJECT Uconn Connects NOTE
+#+filetags:
+* New Common Curriculum
+#+BEGIN_QUOTE
+The courses fulfilling the Topics of Inquiry must represent at least six different subjects as designated by subject code (e.g., ANTH or WGSS).
+Exceptions to this rule are subject heading designations that group interdisciplinary studies through cross-listing, such as LLAS, AFRA, WGSS, AAAS, URBN, ENVS,
+EVST, HRTS, UNIV, and INTD. One unique course from interdisciplinary studies through cross-listing can be used towards any single cross-listed unit, but could
+not be used to meet more than one subject area in the six expected within the Common Curriculum. (ie AAAS/AFRA/ARTH 2222 could be used towards the subject area
+AAAS or AFRA or ARTH. It could not be used to meet 3 different subject areas.)
+#+END_QUOTE

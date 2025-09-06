@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       3D65B87B-7EB1-41D9-9D30-F0D8E8E8AC12
+:mtime:    20250822000538
+:ctime:    20250822000538
+:END:
+#+title: PhD Application DRAFT
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#references][References]]
+
+* References  

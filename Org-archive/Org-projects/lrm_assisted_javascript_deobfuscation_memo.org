@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       07D7561E-05BC-4E3F-92E5-240FD7D5288B
+:mtime:    20250904090253 20250831151203 20250828193602 20250828085115
+:ctime:    20250828085115
+:END:
+#+title: LRM-assisted JavaScript Deobfuscation MEMO
+#+filetags:  
+* 08-28-2025
++ the limitation of my design
+
+* 08-31-2025
+system prompt 与user prompt
+
+RAG ->
+
+golden verifier!
+
+* 09 03
+记录 specific trade-off
+具体问题的 decision
+optimize： data to explain the problem
+
+solve most of the problem, and solve the simplest one

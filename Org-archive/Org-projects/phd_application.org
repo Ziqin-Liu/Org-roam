@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       BD96E41B-6E2E-4DD1-8A7B-4C446ED001A0
+:mtime:    20250821235808
+:ctime:    20250821235808
+:END:
+#+title: PhD Application
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#references][References]]
+
+* References  

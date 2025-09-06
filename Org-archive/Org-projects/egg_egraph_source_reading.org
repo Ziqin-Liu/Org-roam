@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       D38DBEE5-9225-4284-A6C7-8A0A0ECA6577
+:mtime:    20250824220957
+:ctime:    20250824220957
+:END:
+#+title: Egg Egraph Source Reading
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#references][References]]
+
+* References  

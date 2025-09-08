@@ -1,5 +1,9 @@
 
 
+* RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response
++ BibTex:[[id:9EBD03C5-CA46-471C-A2F3-575909965934][erlingsson2014rappor]]
++ Created: [2025-09-06 Sat 19:58]
+
 * A neural substrate of prediction and reward
 + BibTex:[[id:3D57D74C-E204-4A09-99E7-063AD88A126A][schultz1997neural]]
 + Created: [2025-09-02 Tue 09:07]

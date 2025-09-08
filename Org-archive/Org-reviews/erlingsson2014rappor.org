@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       9EBD03C5-CA46-471C-A2F3-575909965934
+:ROAM_REFS: cite:erlingsson2014rappor
+:mtime:    20250906195935
+:ctime:    20250906195935
+:END:
+#+FILETAGS: erlingsson2014rappor
+#+title: REVIEW RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: erlingsson2014rappor
+:URL: https://dl.acm.org/doi/10.1145/2660267.2660348
+:NOTER_DOCUMENT: ~/Org-docs/erlingsson2014rappor.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

@@ -1,7 +1,6 @@
-
 :PROPERTIES:
 :ID:       FE000E9D-6DDC-4955-8799-F448A9441D75
-:mtime:    20250904225131 20250904130737
+:mtime:    20250908090619 20250908083608 20250908080407 20250908072418 20250907212354 20250907203056 20250907095535 20250906222958 20250906202042 20250906192659 20250906105542 20250906090938 20250904225131 20250904130737
 :ctime:    20250904130737
 :END:
 #+FILETAGS: anonymous2026tdpw
@@ -16,3 +15,241 @@
 :END:
 
 + what is the problem that this paper want to solve?
+
+
+average fragment evolution entropy over time is the metric of the whole systems, but I want
+to want time fragment has any effect? abstracl study
+
+Unlike differential privacy, TDPW avoids the trade-off between privacy and utility; unlike homomorphic
+encryption, it eliminates the tension between security and performance; and unlike traditional encryption,
+it sidesteps centralisation bottlenecks. As data ecosystems become more dynamic and decentralised, TDPW sets
+a new paradigm for privacy preservation, one where time becomes a foundational cryptographic construct. This
+work contributes both theoretical insights and practical tools for deploying time-aware privacy in
+critical, real-world infrastructure.
+
+I need data to show this result rather than just qualify!
+
+* review
+** paper Summary
+how to solve privacy-priservate problem in the dynamic, decentralised enviroments
+
+robust privacy protections
+
+Privacy-Enhancing Technologies
+
+data-at-rest encrypted computation
+
+long-term, cumulative compromise, as storage nodes may be intermittently or repeatedly exposed
+
+real-time, continuously evolving data streams
+
+the paper prosole a new architecture (Time-Dimensional Privacy Weaving) to solve this problem. First
+fragment data into temporal interdependant section, then re-encrypting and reshuffles to avoid longterm
+compromise, and finally using temporal signatures derived from biometric of behavioural traits to reconstruct
+the data
+
+By leveraging the temporal decay of infor- mation, TDPW enhances long-term privacy while maintaining full data
+utility for authorised users, without the computational burdens of homomorphic encryption (HE) or secure
+multi-party computation (SMPC), or the accuracy trade-offs of differential privacy (DP)
+
+
+The paper identify the existing privacy-enhancing technologies fail to priservate the privacy in dynamics,
+decentralised data streams enviroments which is common in smart mobility and healthcare domains.
+
+they propose a new architecture which introduce time as a core factor to introduce the randomness.
+they method include three steps: first, they fragment the data into interdependant section with time, then re-encryting
+and reshuffles to avoid longterm compromise
+
+high-velocity data streams where time-aware privacy and forward secrecy are critical.
+
+privacy framework that incorporates time as a central element of data protection,
+
+
+The paper identify the problems in existing privacy-enhancing technologies which fail to provide robust privacy
+preotection in a dynamic, decentralised and high-velocity data streams. The paper propose a new architecture called TDPW(Time-Dimensional Privacy Weaving)
+ which incorporates time as a central element of data pretection. This architecture include three stages.
+ 1) Temporal fragmentation aim to fragment data into temporal interdependant section; 2) Dynamic Evolution re-encrypting
+    and reshuffles the interdependant section of the time dimension to avoid long-term compromise. 3) Reconstruction:
+    use personalize temporal signatures to reconstruct the complete data.
+
+
++ chatgpt
+The paper identifies key limitations in existing privacy-enhancing technologies, which often fail to provide robust privacy protection in dynamic, decentralized, and high-velocity data streams.
+To address these challenges, the authors propose a novel architecture called Time-Dimensional Privacy Weaving (TDPW), which incorporates time as a central element of data protection.
+
+The architecture consists of three stages:
+
+1) Temporal Fragmentation – splitting data into temporally interdependent segments.
+
+2) Dynamic Evolution – periodically re-encrypting and reshuffling these temporal segments to prevent long-term compromise.
+
+3) Reconstruction – using personalized temporal signatures to securely reassemble the complete data.
+
+* strengths (bullet points)
+what are the paper's important strengths
+
+TDPW introduces time as a core element of protection.
+
+the paper identify the problem, in dynamic,decentralised enviroments, especially in mobility and medical
+
+summary the advantage and disadanva exist in the current PET
+
+introduce time as a core element of protection
+
+system analysis
+
+
+1) This paper introduce time as a core element of data protection, which is quite novelity
+2) provide detail privacy and security analysis to demonstrate DPTW potential useness
+3) the writing is clear
+
+1) Introduces time as a core element of data protection, which is a novel and interesting idea.
+
+2) Provides a detailed privacy and security analysis that demonstrates the potential usefulness and applicability of TDPW.
+
+3) The paper is well-written and clearly presented, making it easy to follow the technical arguments.
+
+** Weaknesses
+#+BEGIN_QUOTE
+what are the paper's important weaknesses?
+#+END_QUOTE
+
+
+ time as a central element of data protection, since the paper want to solve this problem, so when have
+ a new data, how to updata the system state?, reshuffles
+
+
+lack of enough experiment to support the claim in the paper
+
+dynamic generate data -> how to solve the newly generate data? it seems the system still solve the static data?
+
+The authors need to conduct more experiment to futher support the claim and theoretical analysis in the paper.
+
+the webpage link in the references is messy
+
+
+1) The paper lacks sufficient experimental validation; more comprehensive experiments are needed to support the claims and strengthen the theoretical analysis.
+2) The references section is poorly formatted, with messy or inconsistent webpage links that reduce readability and professionalism.
+
+** Detailed comments for author
+#+BEGIN_QUOTE
+Provide detailed, constructive feedback on the submission, describe the bullet points provided under
+the strengths and weaknesses above.
+#+END_QUOTE
+
+
+The adversary is adaptive and can compromise up to t < k nodes per time step, where k is the threshold
+required for reconstruction.
+
+how to make sure that 
+
+
+the paper "claim that tdpw enhances long-term privacy while maintaining full data utility for authorised
+users, without the computational burdens of homomorphic encryption or secure multi-party computation, or
+the accuracy trade-offs of differential privacy(DP)", however, their experiment only show that the entropy
+result of the tdpw, which lack experiment to support their result, like how the privacy accuracy trade-offs
+between tdpw and dp?
+
+computational burdens bewteen tdpw and he
+
+how temporal dynamics, decentralised storage, and user-specific access control affect the privacy, utility etc.
+
+
+the overhead, data generate rate?
+
+how temporal fragmentation and dynamic evolution affect the system performance
+
+
+
+about the overhead, only one data point why it demonstrated linear scalability, the number of fragments
+
+
+The two datasets have very limited number of record, for healthcare data, each record was approximately 10KB, with data streams totalling
+up to 1GB, that means we only have roughly 100 record. and for smart mobility data, it only contains roughly 500 records. This pose serveral concern:
+1) does it any practical existing that limit the access to more data record? 2) the so limited number record can really demonstrate the high-velocity of
+   the data streams? 3) how does this limite dataset stress the whole system?
+
+The paper only show the Average Fragment Evolution Entropy Over Time, which I think it is the metric of the whole system. but I also wondering how each component
+affect the whole system, for example, does the time fragmentation is necssary step to provide privay protection? how the time window, k and m in (k,m)-threshold secret sharing scheme
+affect the whole system? The authors provide some theoretical analysis to demonstrate their effect, however it would be better to also provide some experimental result.
+
+
+In the Computational and Communication Overhead, the authors say: "This time scales linearly with both the data size and the number of fragments m." the figure in the Appendix can show the time scales linearly with
+the data, but I have no idea of why this time scales also linearly with the number of fragments m?
+
+The author claim that TDPW gain advantage over the existing privacy-enhancing technologies, however, it would be better to have some experiment to compare the TDPW with existing research paper or technologies
+to concrete show the advantages.
+
+
+1) Dataset Size and Representativeness:
+The two datasets used in the experiments appear to be quite limited in size. For the healthcare dataset, each record is approximately 10KB, with a total data stream size of around 1GB. This implies that the dataset contains only about 100 records. Similarly, the smart mobility dataset consists of roughly 500 records. This raises several concerns:
++ Are there any practical restrictions that prevent access to larger datasets?
++ Given the small number of records, can the experiments convincingly demonstrate the high-velocity nature of data streams, which is central to the problem setting?
++ How does such a limited dataset realistically stress-test the proposed system?
+
+2) System Metrics and Component-Level Analysis:
+   The evaluation primarily reports the Average Fragment Evolution Entropy Over Time, which is a useful metric for system-level behavior. However, it would strengthen the paper to also analyze how individual components contribute
+    to overall system performance. For example:
++ Is time fragmentation an essential step for ensuring privacy, or could the system function effectively without it?
++ How do different parameters (e.g., time window, and k and m in the (k,m)-threshold secret sharing scheme) impact system performance and privacy guarantees in practice? While the theoretical analysis provides some insights, it would be valuable to complement this with experimental results.
+
+3) Computational and Communication Overhead:
+   The paper states: “This time scales linearly with both the data size and the number of fragments m.” The figure in the Appendix supports the linear scaling with data size, but it is unclear why the overhead should also scale linearly with m. A more detailed explanation or additional experimental evidence would help clarify this point.
+
+4) Comparison with Existing Work:
+   The paper claims that TDPW provides advantages over existing privacy-enhancing technologies. However, the experimental evaluation does not include a direct comparison with prior work. Including such comparisons (even with a few representative baselines) would make the advantages of TDPW more concrete and compelling.
+
+** Concrete steps for improvement
+provide concrete steps for improvement (if applicable) as bullet points or in a few sentences
+
+1) it would make the paper more professionalism if the author could make the page link in the references.
+2) Conduct comprehensive experiement to demonstrate the system.
+
+* Final version
+
+** Paper Summary
+The paper identifies key limitations in existing privacy-enhancing technologies, which often fail to provide robust privacy protection in dynamic, decentralized, and high-velocity data streams.
+To address these challenges, the authors propose a novel architecture called Time-Dimensional Privacy Weaving (TDPW), which incorporates time as a central element of data protection.
+
+The architecture consists of three stages:
+
+1) Temporal Fragmentation – splitting data into temporally interdependent segments.
+
+2) Dynamic Evolution – periodically re-encrypting and reshuffling these temporal segments to prevent long-term compromise.
+
+3) Reconstruction – using personalized temporal signatures to securely reassemble the complete data.
+
+** Strengths (bullet points)
+1) Introduces time as a core element of data protection, which is a novel and interesting idea.
+
+2) Provides a detailed privacy and security analysis that demonstrates the potential usefulness and applicability of TDPW.
+
+3) The paper is well-written and clearly presented, making it easy to follow the technical arguments.
+
+** Weaknesses
+1) The paper lacks sufficient experimental validation; more comprehensive experiments are needed to support the claims and strengthen the theoretical analysis.
+2) The references section is poorly formatted, with messy or inconsistent webpage links that reduce readability and professionalism.
+
+
+** Detailed comments for author
+1) Dataset Size and Representativeness:
+The two datasets used in the experiments appear to be quite limited in size. For the healthcare dataset, each record is approximately 10KB, with a total data stream size of around 1GB. This implies that the dataset contains only about 100 records. Similarly, the smart mobility dataset consists of roughly 500 records. This raises several concerns:
++ Are there any practical restrictions that prevent access to larger datasets?
++ Given the small number of records, can the experiments convincingly demonstrate the high-velocity nature of data streams, which is central to the problem setting?
++ How does such a limited dataset realistically stress-test the proposed system?
+
++ Ablation studies:
+  The evaluation primarily reports the Average Fragment Evolution Entropy Over Time, which is a useful metric for system-level behavior. However, it would strengthen the paper to also analyze how individual components contribute
+   to overall system performance. For example:
++ Is dynamic evolution an essential step for ensuring privacy, or could the system function effectively without it?
+  + How do different parameters (e.g., time window, and k and m in the (k,m)-threshold secret sharing scheme) impact system performance and privacy guarantees in practice? While the theoretical analysis provides some insights, it would be valuable to complement this with experimental results.
+
++ Computational and Communication Overhead:
+  The paper states: “This time scales linearly with both the data size and the number of fragments m.” The figure in the Appendix supports the linear scaling with data size, but it is unclear why the overhead should also scale linearly with m. A more detailed explanation or additional experimental evidence would help clarify this point.
+
++ Comparison with Existing Work:
+  The paper claims that TDPW provides advantages over existing privacy-enhancing technologies. However, the experimental evaluation does not include a direct comparison with prior work. Including such comparisons (even with a few representative baselines) would make the advantages of TDPW more concrete and compelling.
+
+** Concrete steps for improvement
+To strengthen the paper, the experimental section should be expanded with larger-scale workloads, ablation studies, and direct comparisons to representative baselines. Finally, polishing the references
+ will greatly increase the paper’s professionalism and reproducibility.

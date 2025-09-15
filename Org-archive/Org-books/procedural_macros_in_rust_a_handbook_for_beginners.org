@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       B5236D70-8454-492C-8F45-3903A0C6409E
+:mtime:    20250913194407
+:ctime:    20250913194407
+:END:
+#+title:BOOK Procedural Macros in Rust – A Handbook for Beginners NOTE
+#+filetags:
+

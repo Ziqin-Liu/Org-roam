@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       E57B095E-6E0A-40A9-9CF5-021E66D0BCE4
+:mtime:    20250914212231 20250903111202 20250902142121 20250829194513 20250829184702 20250829181639
+:ctime:    20250829181639
+:END:
+#+title:BOOK Cognitive Neuroscience The Biology of the Mind 5th
+#+filetags:  
+* Plan
+The book has roughly 650 pages to read. If I want to finish it in one year with two passes, that means I need to read about 4 pages per day. For the first pass, I’ll aim to read 5 pages per day.
+
++ Skip the Chapter 1
++ Skip Chapter 2.1 and 2.2
++ Skip 2.7
+
+* Chapter 2
+** Overview of Nervous System Structure
+*** The Central Nervous System
++ Terminology
+  + nucleus
+  + layer
+  + cerebellum
+  + grey matter
+  + white matter
+  + tracts
+  + commissures
+*** Blood supply and the Brain
++ Navigating the brain
+  + rostral (anterior)
+  + caudal (posterior)
+  + dorsal (superior)
+  + ventral (inferior)
+
+  + sagittal
+    + midsagittal
+    + lateral sagittal section
+    + coronal section
+    + axial, transverse, horizontal
+
+** A Guided Tour of the Brain
+*** The Brainstem: Medulla, Pons, Cerebellum, and Midbrain
++ brainstem
+  + medulla(myelencephalon)
+    
+  + pons and cerebellum(metencephalon)
+  + midbrain(mesencephalon)
+
+  + nuclei
+
+
++ cerebellum
+  + cerebellar cortex
+  + deep nuclei
+  + white matter
+
+*** The Diencephalon: Thalamus and Hypothalamus
++ thalamus: gateway to the cortex
++ hypothalamus
+  what does hypothalamus produce?
+*** The Telencephalon: Cerebrum
++ limbic system
++ basal ganglia
++ striatum
+
+** The Cerebral Cortex
++ two important functions of cortex
+*** Dividing the Cortex by Surface Features
+*** Dividing the Cortex by Cell Architecture
++ cytoarchitectonics
+
+
+*** Dividing the Cortex by functions
++ primary auditory cortex(A1), secondary auditory cortex(A2)
++ prefrontal cortex
++ dorsolateral prefrontal cortex
++ ventrolateral prefrontal cortex
++ orbitofrontal cortex
++ medial prefrontal regions
++ anterior cingulate cortex
++ executive function
++ paralimbic areas
++ limbic areas
+
+** 2.6 Connecting the Brain's Components into Systems
++ small-world architecture
+
+** 2.7 Overview of Early Development
++ ectoderm
++ mesoderm
++ endoderm
+
+* Chapter 3 Methods of Cognitive Neuroscience
+** 3.1 Cognitive Psychology and Behavioral Methods
++ What is cognitive psychology?
+  The study of mental activity as an information-processing problem.

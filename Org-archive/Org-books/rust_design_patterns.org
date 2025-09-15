@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3D84D195-73B5-4914-BA40-7F75EAB85534
+:mtime:    20250914212304 20250825090633 20250823202901
+:ctime:    20250823202901
+:END:
+#+title:BOOK Rust Design Patterns
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#chapter-31-behavioural-patterns][Chapter 3.1 Behavioural Patterns]]
+
+* TODO Chapter 3.1 Behavioural Patterns
+:LOGBOOK:
+CLOCK: [2025-08-23 Sat 20:30]--[2025-08-23 Sat 21:00] =>  0:30
+- State "TODO"       from "TODO"       [2025-08-23 Sat 20:30]
+:END:

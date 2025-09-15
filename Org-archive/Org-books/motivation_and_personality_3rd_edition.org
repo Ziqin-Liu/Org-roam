@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       568CD749-6172-4358-BE6D-FA3DD134AA14
+:mtime:    20250914212421
+:ctime:    20250914212421
+:END:
+#+title:BOOK Motivation and Personality 3rd Edition
+#+filetags:
+* Table of Contents :toc_2_gh:

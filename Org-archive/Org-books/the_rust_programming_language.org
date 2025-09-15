@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       D021C5F5-3279-401D-86A2-AA278871A52D
+:mtime:    20250830150019 20250830142548 20250830125503
+:ctime:    20250830125503
+:END:
+#+title:BOOK The Rust Programming Language
+#+filetags:
+* Chapter 10 Generic Types, Traits, and Lifetimes
+** 10.2 Traits: Defining Shared Behavior
++ Default implementation
++ traits as parameters
+  How traits can serve as parameters
+
+In Rust, a trait serves as an abstraction that specifies shared behavior, which concrete types can implement.
+
+
+** test
++ What is a trait in Rust? Can you give a concrete example?
++ what is a trait bound?
++ what are where clauses in Rust?
++ Why do we need lifetimes in Rust?
++ What does it mean that ‘lifetimes are a type of generic’?

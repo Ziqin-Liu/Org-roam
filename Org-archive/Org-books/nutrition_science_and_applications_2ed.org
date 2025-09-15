@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9CC688D3-4392-42A3-86E0-F19C5A4D68F9
+:mtime:    20250903093514
+:ctime:    20250903093514
+:END:
+#+title:BOOK Nutrition Science and Applications 2ed
+#+filetags:
+* Table of Contents :toc_2_gh:

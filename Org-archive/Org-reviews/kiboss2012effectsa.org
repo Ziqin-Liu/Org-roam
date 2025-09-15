@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       24CA32D6-56DE-467D-98BE-6B96FC49804F
+:ROAM_REFS: cite:kiboss2012effectsa
+:mtime:    20250911200321
+:ctime:    20250911200321
+:END:
+#+FILETAGS: kiboss2012effectsa
+#+title: REVIEW Effects of Special E-Learning Program on Hearing-Impaired Learners' Achievement and Perceptions of Basic Geometry in Lower Primary Mathematics
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: kiboss2012effectsa
+:URL: https://journals.sagepub.com/doi/10.2190/EC.46.1.b
+:NOTER_DOCUMENT: ~/Org-docs/kiboss2012effectsa.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

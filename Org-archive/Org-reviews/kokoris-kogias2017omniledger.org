@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       A316C92D-13F9-4CE7-87AD-EB5F84D6E101
+:ROAM_REFS: cite:kokoris-kogias2017omniledger
+:mtime:    20250910121418
+:ctime:    20250910121418
+:END:
+#+FILETAGS: kokoris-kogias2017omniledger
+#+title: REVIEW OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: kokoris-kogias2017omniledger
+:URL: https://eprint.iacr.org/2017/406
+:NOTER_DOCUMENT: ~/Org-docs/kokoris-kogias2017omniledger.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

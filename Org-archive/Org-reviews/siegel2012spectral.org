@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       EA1E7CBC-F8A5-4C42-B585-7BA93083DB74
+:ROAM_REFS: cite:siegel2012spectral
+:mtime:    20250909224832
+:ctime:    20250909224832
+:END:
+#+FILETAGS: siegel2012spectral
+#+title: REVIEW Spectral fingerprints of large-scale neuronal interactions
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: siegel2012spectral
+:URL: https://www.nature.com/articles/nrn3137
+:NOTER_DOCUMENT: ~/Org-docs/siegel2012spectral.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

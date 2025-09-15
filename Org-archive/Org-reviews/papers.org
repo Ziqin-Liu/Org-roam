@@ -1,5 +1,37 @@
 
 
+* Math Abilities in Deaf and Hard of Hearing Children: The Role of Language in Developing Number Concepts
++ BibTex:[[id:B6D71B1F-CD9C-4849-AE76-744781CEB962][santos2022math]]
++ Created: [2025-09-11 Thu 21:35]
+
+* Effects of Special E-Learning Program on Hearing-Impaired Learners' Achievement and Perceptions of Basic Geometry in Lower Primary Mathematics
++ BibTex:[[id:24CA32D6-56DE-467D-98BE-6B96FC49804F][kiboss2012effectsa]]
++ Created: [2025-09-11 Thu 20:01]
+
+* Omniledger: A secure, scaleout, decentralized ledger via sharding
++ BibTex:[[id:A316C92D-13F9-4CE7-87AD-EB5F84D6E101][kokoris-kogias2017omniledger]]
++ Created: [2025-09-10 Wed 12:13]
+
+* Spectral fingerprints of large-scale neuronal interactions
++ BibTex:[[id:EA1E7CBC-F8A5-4C42-B585-7BA93083DB74][siegel2012spectral]]
++ Created: [2025-09-09 Tue 22:46]
+
+* Where Does EEG Come From and What Does It Mean?
++ BibTex:[[id:372DEC85-32A9-4E37-BEF2-B4CECD9EFDCE][cohen2017where]]
++ Created: [2025-09-09 Tue 09:34]
+
+* HierFalcon: A Blockchain Scalability Optimization Mechanism Based on Hierarchical Sharding Architecture
++ BibTex:[[id:756EACFE-BFEC-4CA3-937F-38A1C5694523][REVIEW HierFalcon: A Blockchain Scalability Optimization Mechanism Based on Hierarchical Sharding Architecture]]
++ Created: [2025-09-09 Tue 07:02]
+
+* The relationship between oscillatory EEG activity and the laminar-specific BOLD signal
++ BibTex:[[id:6A4F0F99-34E4-4E2E-8C08-AFB76CCA7A82][scheeringa2016relationshipa]]
++ Created: [2025-09-08 Mon 14:54]
+
+* Reading intervention and neuroplasticity: A systematic review and meta-analysis of brain changes associated with reading intervention
++ BibTex:[[id:2CB92DE6-8F38-4E15-B2AB-462CFE472F42][perdue2022readingb]]
++ Created: [2025-09-08 Mon 11:32]
+
 * RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response
 + BibTex:[[id:9EBD03C5-CA46-471C-A2F3-575909965934][erlingsson2014rappor]]
 + Created: [2025-09-06 Sat 19:58]

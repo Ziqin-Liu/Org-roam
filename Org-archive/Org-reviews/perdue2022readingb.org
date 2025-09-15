@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       2CB92DE6-8F38-4E15-B2AB-462CFE472F42
+:ROAM_REFS: cite:perdue2022readingb
+:mtime:    20250908134156 20250908113458
+:ctime:    20250908113458
+:END:
+#+FILETAGS: perdue2022readingb
+#+title: REVIEW Reading intervention and neuroplasticity: A systematic review and meta-analysis of brain changes associated with reading intervention
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: perdue2022readingb
+:URL: https://linkinghub.elsevier.com/retrieve/pii/S0149763421005042
+:NOTER_DOCUMENT: ~/Org-docs/perdue2022readingb.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

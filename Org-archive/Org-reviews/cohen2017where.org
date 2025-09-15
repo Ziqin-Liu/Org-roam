@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       372DEC85-32A9-4E37-BEF2-B4CECD9EFDCE
+:ROAM_REFS: cite:cohen2017where
+:mtime:    20250909093459
+:ctime:    20250909093459
+:END:
+#+FILETAGS: cohen2017where
+#+title: REVIEW Where Does EEG Come From and What Does It Mean?
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: cohen2017where
+:URL: https://linkinghub.elsevier.com/retrieve/pii/S0166223617300243
+:NOTER_DOCUMENT: ~/Org-docs/cohen2017where.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

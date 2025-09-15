@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       B6D71B1F-CD9C-4849-AE76-744781CEB962
+:ROAM_REFS: cite:santos2022math
+:mtime:    20250911213709
+:ctime:    20250911213709
+:END:
+#+FILETAGS: santos2022math
+#+title: REVIEW Math abilities in deaf and hard of hearing children: The role of language in developing number concepts.
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: santos2022math
+:URL: https://doi.apa.org/doi/10.1037/rev0000303
+:NOTER_DOCUMENT: ~/Org-docs/santos2022math.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

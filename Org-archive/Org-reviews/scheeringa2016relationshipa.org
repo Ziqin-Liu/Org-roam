@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       6A4F0F99-34E4-4E2E-8C08-AFB76CCA7A82
+:ROAM_REFS: cite:scheeringa2016relationshipa
+:mtime:    20250908145616
+:ctime:    20250908145616
+:END:
+#+FILETAGS: scheeringa2016relationshipa
+#+title: REVIEW The relationship between oscillatory EEG activity and the laminar-specific BOLD signal
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: scheeringa2016relationshipa
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4914170/
+:NOTER_DOCUMENT: ~/Org-docs/scheeringa2016relationshipa.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

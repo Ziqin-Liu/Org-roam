@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       756EACFE-BFEC-4CA3-937F-38A1C5694523
+:mtime:    20250910222725 20250910212140 20250910205047 20250910192916 20250909193439 20250909105457 20250909100733 20250909081742 20250909070447
+:ctime:    20250909070447
+:END:
+#+FILETAGS: 
+#+title: REVIEW HierFalcon: A Blockchain Scalability Optimization Mechanism Based on Hierarchical Sharding Architecture
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: anonymous2025HierFalcon
+:URL: 
+:NOTER_DOCUMENT: ~/Org-docs/anonymous2025HierFalcon.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:
+
+* Paper Summary
+The paper introduces HierFalcon, a blockchain scalability solution that combines hierarchical sharding architecture with communication optimization mechanisms. In this design, shards are
+organized into main chain–subchain structures, where cross-shard transactions are elevated to parent chains, reducing coordination overhead. The hierarchical architecture further enables node
+reuse, data aggregation, and geographic sharding, all of which contribute to reducing communication overhead.
+
+* strengths (bullet points)
+1) The idea of combining hierarchical sharding with communication optimization to address blockchain scalability is novel.
+2) Provides rigorous mathematical analysis of both scalability and security.
+3) Well-written and clearly explains why existing sharding approaches still face bottlenecks; The detailed techniques of HierFalcon are easy to follow.
+
+* Weaknesses
+1) The experimental evaluation is limited and does not comprehensively demonstrate the advantages of HierFalcon.
+2) The manuscript contains minor writing.
+
+* Detailed comments for author
+1) For performance comparison, this paper uses both non-hierarchical conventional sharding systems and hierarchical sharding systems as control groups. On one hand, this approach demonstrates whether the proposed optimizations can truly improve throughput or reduce system overhead, which is important. On the other hand, this result may seem somewhat expected, given that several optimizations have been applied to the new architecture. A more compelling demonstration of the new architecture’s effectiveness would be to conduct experiments comparing it directly with existing baselines.
+2) The paper compares the broadcast latency across different architectures. I am also interested in the client- or user-perceived latency in the system, which is a commonly used metric when evaluating blockchain overhead in systems such as Chainspace, RapidChain, and OmniLedger.
+3) There are some minor writing errors:
+    + On page 4, at the bottom of the left column, the sentence reads: "where l represents the level and ii i represents the shard index within that level" The term "ii" appears to be a typo and should be corrected.
+    + On page 4, right column, the expression <l + 1, i * k> is not properly aligned with the surrounding text.
+    + On page 10, line 10 of the algorithm also appears misaligned with the surrounding text
+    + On page 8, bottom of the right column, the sentence reads: "(4 parent chain nodes plus 22 child chain nodes)". The "22" should be corrected to "2×2". The same correction applies to the top of the left column on page 9.
+
+* Concrete steps for improvement
+1) Conduct more comprehensive experiments to compare HierFalcon with existing baseline systems.
+2) Include metrics such as client/user-perceived latency in addition to throughput and broadcast latency.
+
++ Overall merit: weak accept
++ writing quality: well-written
++ reviewer expertise: some familiarity
++ reviewer confidence: low

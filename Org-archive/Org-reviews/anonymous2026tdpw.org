@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       FE000E9D-6DDC-4955-8799-F448A9441D75
-:mtime:    20250908090619 20250908083608 20250908080407 20250908072418 20250907212354 20250907203056 20250907095535 20250906222958 20250906202042 20250906192659 20250906105542 20250906090938 20250904225131 20250904130737
+:mtime:    20250908153831 20250908090619 20250908083608 20250908080407 20250908072418 20250907212354 20250907203056 20250907095535 20250906222958 20250906202042 20250906192659 20250906105542 20250906090938 20250904225131 20250904130737
 :ctime:    20250904130737
 :END:
 #+FILETAGS: anonymous2026tdpw
@@ -253,3 +253,8 @@ The two datasets used in the experiments appear to be quite limited in size. For
 ** Concrete steps for improvement
 To strengthen the paper, the experimental section should be expanded with larger-scale workloads, ablation studies, and direct comparisons to representative baselines. Finally, polishing the references
  will greatly increase the paper’s professionalism and reproducibility.
+
+ Overall merit: Weak reject
+ writing quality: well-written
+ reviewer expertise: some familiarity
+ reviewer confidence: low

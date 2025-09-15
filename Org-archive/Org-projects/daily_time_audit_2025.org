@@ -1,26 +1,154 @@
 :PROPERTIES:
 :ID:       D7F6E847-E0FA-4F58-A40A-D5FEA320099F
-:mtime:    20250906113020 20250906091655 20250904175331 20250903223251 20250902092626 20250901105739 20250831223316 20250831175716 20250830220121 20250829135857 20250828193250 20250827192132 20250827141250 20250826084058 20250824180943
+:mtime:    20250914211626 20250914184351 20250910214524 20250909230206 20250909220810 20250909163402 20250906113020 20250906091655 20250904175331 20250903223251 20250902092626 20250901105739 20250831223316 20250831175716 20250830220121 20250829135857 20250828193250 20250827192132 20250827141250 20250826084058 20250824180943
 :ctime:    20250824180943
 :END:
 #+title: Daily Time Audit 2025
 #+filetags:
 
 #+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
-#+CAPTION: Clock summary at [2025-09-06 Sat 10:28], for Saturday, September 06, 2025.
-| File                                   | Headline                          | Time |
-|----------------------------------------+-----------------------------------+------|
-|                                        | ALL *Total time*                    | *1:50* |
-|----------------------------------------+-----------------------------------+------|
-| inbox_2025.org                         | *File time*                         | *1:24* |
-|                                        | Make Breakfast                    | 0:13 |
-|                                        | Breakfast                         | 0:21 |
-|                                        | Restroom                          | 0:12 |
-|                                        | Morning Essential                 | 0:17 |
-|                                        | Commute                           | 0:21 |
-|----------------------------------------+-----------------------------------+------|
-| learning_differential_privacy_todo.org | *File time*                         | *0:26* |
-|                                        | [[id:FE000E9D-6DDC-4955-8799-F448A9441D75][REVIEW TDPW - Time-Dimensional...]] | 0:26 |
+#+CAPTION: Clock summary at [2025-09-14 Sun 19:39], for Sunday, September 14, 2025.
+| File                                           | Headline          |  Time |
+|------------------------------------------------+-------------------+-------|
+|                                                | ALL *Total time*    | *10:47* |
+|------------------------------------------------+-------------------+-------|
+| inbox_2025.org                                 | *File time*         |  *3:48* |
+|                                                | Make Breakfast    |  0:24 |
+|                                                | Lunch & email     |  0:41 |
+|                                                | Make dinner       |  0:12 |
+|                                                | dinner            |  0:35 |
+|                                                | Restroom          |  0:26 |
+|                                                | Break             |  0:48 |
+|                                                | Commute           |  0:42 |
+|------------------------------------------------+-------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org | *File time*         |  *4:53* |
+|                                                | Implement e-graph |  4:53 |
+|------------------------------------------------+-------------------+-------|
+| workout_todo.org                               | *File time*         |  *2:06* |
+|                                                | Chest day         |  2:06 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-12 Fri 12:24], for Friday, September 12, 2025.
+| File                                                     | Headline            | Time |
+|----------------------------------------------------------+---------------------+------|
+|                                                          | ALL *Total time*      | *4:17* |
+|----------------------------------------------------------+---------------------+------|
+| inbox_2025.org                                           | *File time*           | *1:53* |
+|                                                          | Breakfast           | 0:49 |
+|                                                          | Restroom            | 0:03 |
+|                                                          | Fix busar hold      | 1:01 |
+|----------------------------------------------------------+---------------------+------|
+| lrm_assisted_javascript_deobfuscation_todo.org           | *File time*           | *1:11* |
+|                                                          | Implement e-graph   | 1:11 |
+|----------------------------------------------------------+---------------------+------|
+| marcus_harris_todo.org                                   | *File time*           | *0:27* |
+|                                                          | Summary the meeting | 0:27 |
+|----------------------------------------------------------+---------------------+------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org | *File time*           | *0:46* |
+|                                                          | Class@Young 100     | 0:46 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-10 Wed 21:45], for Wednesday, September 10, 2025.
+| File                                                     | Headline                               |  Time |
+|----------------------------------------------------------+----------------------------------------+-------|
+|                                                          | ALL *Total time*                         | *11:56* |
+|----------------------------------------------------------+----------------------------------------+-------|
+| inbox_2025.org                                           | *File time*                              |  *5:18* |
+|                                                          | Breakfast                              |  0:33 |
+|                                                          | Lunch & email                          |  2:20 |
+|                                                          | dinner                                 |  0:03 |
+|                                                          | Morning Essential                      |  0:44 |
+|                                                          | Commute                                |  1:38 |
+|----------------------------------------------------------+----------------------------------------+-------|
+| learning_differential_privacy_todo.org                   | *File time*                              |  *2:41* |
+|                                                          | [[id:A316C92D-13F9-4CE7-87AD-EB5F84D6E101][REVIEW OmniLedger: A Secure,...]]        |  0:55 |
+|                                                          | [[id:756EACFE-BFEC-4CA3-937F-38A1C5694523][REVIEW HierFalcon: A Blockchain...]]     |  1:46 |
+|----------------------------------------------------------+----------------------------------------+-------|
+| marcus_harris_todo.org                                   | *File time*                              |  *1:41* |
+|                                                          | Meeting                                |  1:41 |
+|----------------------------------------------------------+----------------------------------------+-------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org | *File time*                              |  *0:59* |
+|                                                          | Extra point                            |  0:05 |
+|                                                          | Class@Young 100                        |  0:54 |
+|----------------------------------------------------------+----------------------------------------+-------|
+| talk_shop_todo.org                                       | *File time*                              |  *0:06* |
+|                                                          | Prospective Outreach Workshop          |  0:06 |
+|----------------------------------------------------------+----------------------------------------+-------|
+| transcend_todo.org                                       | *File time*                              |  *1:11* |
+|                                                          | Reach out to Melania about research... |  1:11 |
+#+END:
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-09 Tue 22:09], for Tuesday, September 09, 2025.
+| File                                                        | Headline                               |  Time |
+|-------------------------------------------------------------+----------------------------------------+-------|
+|                                                             | ALL *Total time*                         | *15:23* |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org | *File time*                              |  *0:42* |
+|                                                             | Chapter 3                              |  0:42 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| inbox_2025.org                                              | *File time*                              |  *3:37* |
+|                                                             | Breakfast                              |  0:15 |
+|                                                             | Lunch & email                          |  0:57 |
+|                                                             | dinner                                 |  0:40 |
+|                                                             | Restroom                               |  0:28 |
+|                                                             | Break                                  |  0:14 |
+|                                                             | Morning Essential                      |  0:09 |
+|                                                             | Commute                                |  0:54 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| learning_differential_privacy_todo.org                      | *File time*                              |  *5:22* |
+|                                                             | [[id:756EACFE-BFEC-4CA3-937F-38A1C5694523][REVIEW HierFalcon: A Blockchain...]]     |  5:22 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| learning_eeg_todo.org                                       | *File time*                              |  *0:20* |
+|                                                             | [[id:372DEC85-32A9-4E37-BEF2-B4CECD9EFDCE][REVIEW Where Does EEG Come From and...]] |  0:20 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| lrm_assisted_javascript_deobfuscation_todo.org              | *File time*                              |  *1:41* |
+|                                                             | Implement e-graph                      |  1:41 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| workout_todo.org                                            | *File time*                              |  *2:06* |
+|                                                             | Back day                               |  2:06 |
+|-------------------------------------------------------------+----------------------------------------+-------|
+| xingyu_wang_todo.org                                        | *File time*                              |  *1:35* |
+|                                                             | Meeting                                |  1:35 |
+#+END:
+
+
+
+#+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t
+#+CAPTION: Clock summary at [2025-09-06 Sat 23:02], for Saturday, September 06, 2025.
+| File                                                        | Headline                             |  Time |
+|-------------------------------------------------------------+--------------------------------------+-------|
+|                                                             | ALL *Total time*                       | *14:47* |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| cognitive_neuroscience_the_biology_of_the_mind_5th_todo.org | *File time*                            |  *0:33* |
+|                                                             | Chapter 3                            |  0:33 |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| inbox_2025.org                                              | *File time*                            |  *4:55* |
+|                                                             | Make Breakfast                       |  0:13 |
+|                                                             | Breakfast                            |  0:21 |
+|                                                             | Lunch & email                        |  0:51 |
+|                                                             | dinner                               |  0:38 |
+|                                                             | Restroom                             |  0:12 |
+|                                                             | Morning Essential                    |  0:17 |
+|                                                             | Commute                              |  0:21 |
+|                                                             | Free Trial Debate Class              |  2:02 |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| learning_differential_privacy_todo.org                      | *File time*                            |  *3:26* |
+|                                                             | [[id:FE000E9D-6DDC-4955-8799-F448A9441D75][REVIEW TDPW - Time-Dimensional...]]    |  3:26 |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| nusc_1165_fundamentals_of_nutrition_session_001_todo.org    | *File time*                            |  *0:14* |
+|                                                             | Homework 1                           |  0:14 |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| nutrition_science_and_applications_4ed_todo.org             | *File time*                            |  *2:56* |
+|                                                             | Chapter 1 Nutrition: Food for Health |  2:56 |
+|-------------------------------------------------------------+--------------------------------------+-------|
+| workout_todo.org                                            | *File time*                            |  *2:43* |
+|                                                             | Leg Day                              |  2:43 |
 #+END:
 
 #+BEGIN: clocktable :scope agenda :maxlevel 2 :block today :compact t :fileskip0 t

@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       0D908AF1-7147-4500-BCA3-AD38A4AEAE31
-:mtime:    20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
+:mtime:    20250907184240 20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
 :ctime:    20250822205026
 :END:
 #+title: Account Management
@@ -20,6 +20,19 @@
 - [[#github-account][Github account]]
 
 * Priciple
+working google account
+ziqin.liu.work@gmail.com
+this account is public, that mean I can show the history, the email etc of this account to the public. the only purpose of this account is to using
+google account, don't use it to signup
+
+
+
+
+working account
++ ziqin.liu@hotmail.com
+  this email is use for work, and important email, like the bank, rent, etc. and this email is private, that mean I only login in my private google account
+
+
 professional account and personal/private account
 
 * Professional account

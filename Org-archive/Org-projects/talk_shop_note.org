@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       48593397-F3C9-4775-A1DB-BC18C35547DB
-:mtime:    20250902212450 20250902204959 20250901150427 20250827192150 20250827134828 20250827124556 20250826113738 20250825221005
+:mtime:    20250911103648 20250909115318 20250902212450 20250902204959 20250901150427 20250827192150 20250827134828 20250827124556 20250826113738 20250825221005
 :ctime:    20250825221005
 :END:
 #+title: PROJECT Talk Shop NOTE
@@ -11,6 +11,7 @@
 - [[#email-template][Email Template]]
   - [[#speaker-coordination][Speaker Coordination]]
   - [[#announcement][Announcement]]
+  - [[#reminder][reminder]]
 
 * Week 1 Introduction Session Review
 what is the Brag.form use for?
@@ -123,3 +124,10 @@ Talk Shop (PSYC 5500) will meet this Monday, September 09 and each following Mon
 
 
 Can't wait to see you all soon!
+
+
+** reminder
+I hope this email finds you well.
+This is a friendly reminder that your TalkShop presentation is scheduled for Monday, September 15, from 12:20–1:10 PM. You are welcome to send us your slides once they are ready, or you can bring a USB to connect to the classroom computer on the day of your presentation.
+Looking forward to your talk!
+Ziqin

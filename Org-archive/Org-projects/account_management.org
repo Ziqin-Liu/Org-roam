@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       0D908AF1-7147-4500-BCA3-AD38A4AEAE31
-:mtime:    20250916115545 20250907184240 20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
+:mtime:    20250918190249 20250916115545 20250907184240 20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
 :ctime:    20250822205026
 :END:
 #+title: Account Management
@@ -16,7 +16,7 @@
   - [[#github][Github]]
   - [[#cloudlab][Cloudlab]]
   - [[#bank][bank]]
-  - [[#groupme][Groupme]]
+  - [[#uconn][Uconn]]
 - [[#google-account][Google account]]
 - [[#github-account][Github account]]
 
@@ -68,9 +68,8 @@ professional account and personal/private account
 + chase | username: zacharykim0823 | 3!charykim082Za | todo change username and email | email: ziqin.liu@hotmail.com
 
 
-** Groupme
-+ email: ziqin.liu.work@gmail.com
-+ phone: 9592104734
+** Uconn
+
 * Google account
 
 * Github account

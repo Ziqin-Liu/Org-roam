@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       630914EC-2C9C-40F4-81D6-85C0DD0636A8
+:mtime:    20250917094146
+:ctime:    20250917094146
+:END:
+#+title:PROJECT CMU CS PhD Application
+#+filetags:
+* Table of Contents :toc_2_gh:

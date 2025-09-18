@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       46B801AF-67CC-42D2-9565-A8E5677C342E
+:mtime:    20250909230539 20250909223502
+:ctime:    20250909223502
+:END:
+#+title: 2025-09-09
+I woke up at 5:30, and got to the school at around 6:20! A busy day.
+
+I met with [[id:23216377-2507-4F09-910E-B0FEEA498D34][PEOPLE Xingyu Wang]], who got the faculty position in Uconn and start his startup.
+We talked about whether Ph.D student work hard here, the agreement is most of the Ph.D student are wasting their
+time. I really agree what he said: spent the time to learn a new framework, which will benefit for your future.
+
+I got my second mentee, hope I can really be helpful with their journey in uconn.
+
+* Phd journey
+It is fun to review papers, it might be stuggle when I have no background, what I can I only to serize the disadvantage and then attack that point, which is no good.
+
+
+
+I woke up at 5:30 and got to school around 6:20 — a busy start to the day.
+
+I met with [[id:23216377-2507-4F09-910E-B0FEEA498D34][PEOPLE Xingyu Wang]], who just got a faculty position at UConn and is also starting his own startup. We talked about whether Ph.D. students here really work hard. His view was that
+most students end up wasting a lot of time, and I agree with him. He said it’s much better to spend that time learning a new framework or skill, something that will truly benefit your future.
+That point really resonated with me.
+
+I also got my second mentee today. I hope I can really be helpful in their journey at UConn.
+
+* Ph.D. journey
+Reviewing papers can be fun, though sometimes it feels like a struggle when I don’t have the right background. Often, the only thing I can do is point out weaknesses and attack them, which I know isn’t
+ideal. I want to get better at engaging with papers more constructively.
+
+I’m thinking about how I can learn neuroimaging techniques, such as fMRI and EEG, as quickly as possible.

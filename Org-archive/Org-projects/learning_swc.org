@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       A19A88E5-81B4-4530-88CF-A6A650B0AB87
+:mtime:    20250913161255
+:ctime:    20250913161255
+:END:
+#+title:PROJECT Learning SWC
+#+filetags:
+* Table of Contents :toc_2_gh:

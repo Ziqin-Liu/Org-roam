@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       07D7561E-05BC-4E3F-92E5-240FD7D5288B
-:mtime:    20250904090253 20250831151203 20250828193602 20250828085115
+:mtime:    20250918095610 20250918092349 20250918065951 20250904090253 20250831151203 20250828193602 20250828085115
 :ctime:    20250828085115
 :END:
 #+title: LRM-assisted JavaScript Deobfuscation MEMO
@@ -21,3 +21,9 @@ golden verifier!
 optimize： data to explain the problem
 
 solve most of the problem, and solve the simplest one
+
+* 09 18
+step -> plan -> ddl
+
+first high level idea ( 避免陷入细节，keep remind the high level idea)
+seperate into steps, have a concrete plan

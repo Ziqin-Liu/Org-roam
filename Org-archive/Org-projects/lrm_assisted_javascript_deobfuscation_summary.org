@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       0EA9B8C4-FEF4-4925-BC51-7E0C07E91981
-:mtime:    20250917213656 20250904072838 20250904065410 20250831145636 20250828085158 20250827223425 20250823102242
+:mtime:    20250918082248 20250918070112 20250917213656 20250904072838 20250904065410 20250831145636 20250828085158 20250827223425 20250823102242
 :ctime:    20250823102242
 :END:
 #+title: LRM-assisted JavaScript Deobfuscation SUMMARY
@@ -1080,11 +1080,213 @@ https://oxc-project.github.io/javascript-parser-in-rust/docs/ast
 
 * Week 4
 ** Current Progress and Future Plan
-Initialize the egraph(AST) -> extract the sub egraph -> combine the large language model -> automatically rewrite -> test the basic functionality
-Initialize the egraph(code property graph) -> extract the sub egraph -> coombine the large language model -> automatically rewrite -> completely test the functionality
-Construct the dataset -> evaluate the system -> identify the problem, especially the problem of code property graph -> construct a new code property graph which combine the information of JS
-Initialize the egraph (new code property graph) -> extract the sub egraph -> combine with the llm -> automatically rewrite -> fully evaluate the system
-
++ Initialize the e-graph (AST — current stage) → extract sub-e-graphs → integrate with the large language model → perform automatic rewriting → test basic functionality
++ Initialize the e-graph (code property graph) → extract sub-e-graphs → integrate with the large language model → perform automatic rewriting → thoroughly test functionality
++ Construct the dataset → evaluate the system → identify issues (especially those related to the code property graph) → design a new code property graph that incorporates JavaScript-specific information
++ Initialize the e-graph (new code property graph) → extract sub-e-graphs → integrate with the LLM → perform automatic rewriting → fully evaluate the system
 ** Implementation Challenges
 + the problem of esprima
-+ 
+  + In Esprima, `AsyncFunctionDeclaration` is not given a separate type name. Both async and non-async functions are classified as `FunctionDeclaration`. The only distinction lies in the `async` field
+    #+BEGIN_SRC JS
+//     export class AsyncFunctionDeclaration {
+//     readonly type: string;
+//     readonly id: Identifier | null;
+//     readonly params: FunctionParameter[];
+//     readonly body: BlockStatement;
+//     readonly generator: boolean;
+//     readonly expression: boolean;
+//     readonly async: boolean;
+//     constructor(id: Identifier | null, params: FunctionParameter[], body: BlockStatement, generator: boolean) {
+//         this.type = Syntax.FunctionDeclaration;
+//         this.id = id;
+//         this.params = params;
+//         this.body = body;
+//         this.generator = generator;
+//         this.expression = false;
+//         this.async = true;
+//     }
+// }
+
+// export class FunctionDeclaration {
+//     readonly type: string;
+//     readonly id: Identifier | null;
+//     readonly params: FunctionParameter[];
+//     readonly body: BlockStatement;
+//     readonly generator: boolean;
+//     readonly expression: boolean;
+//     readonly async: boolean;
+//     constructor(id: Identifier | null, params: FunctionParameter[], body: BlockStatement, generator: boolean) {
+//         this.type = Syntax.FunctionDeclaration;
+//         this.id = id;
+//         this.params = params;
+//         this.body = body;
+//         this.generator = generator;
+//         this.expression = false;
+//         this.async = false;
+//     }
+// }
+    #+END_SRC
+    #+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918083129_8UqLva.png]]
+
+
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918083436_x6w6Jp.png]]
+
+
+
+
+    + Esprima don't support BigInt operators
+      #+BEGIN_SRC js
+    // BigInt addition
+const a = 1n + 2n; // 3n
+// Division with BigInts round towards zero
+const b = 1n / 2n; // 0n
+// Bitwise operations with BigInts do not truncate either side
+const c = 40000000000000000n >> 2n; // 10000000000000000n
+  #+END_SRC
+
+  #+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918084009_SIF84Y.png]]
+
+    + Esprima doesn't support Optional chaining (?.)
+  #+BEGIN_SRC JS
+    const adventurer = {
+  name: "Alice",
+  cat: {
+    name: "Dinah",
+  },
+};
+
+const dogName = adventurer.dog?.name;
+console.log(dogName);
+// Expected output: undefined
+
+console.log(adventurer.someNonExistentMethod?.());
+// Expected output: undefined
+  #+END_SRC
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918084054_AMWXVe.png]]
+
+  + Esprima doesn't support Nullish coalescing operator  (??)
+    #+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918084126_ECwT5r.png]]
+  #+BEGIN_SRC js
+    const foo = null ?? "default string";
+console.log(foo);
+// Expected output: "default string"
+
+const baz = 0 ?? 42;
+console.log(baz);
+// Expected output: 0
+  #+END_SRC
+
+
+
+  
+  +  Potential bug: The CallExpression class defines an `optional` field, but this field does not appear in the generated AST.
+#+BEGIN_SRC JS
+    function greet(name) {
+  console.log("Hello, " + name);
+}
+
+greet("World");
+  #+END_SRC
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918084424_uzBUtY.png]]
+
+  #+BEGIN_QUOTE
+  {
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "greet"
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "name"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "name": "console"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "log"
+                }
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "operator": "+",
+                  "left": {
+                    "type": "Literal",
+                    "value": "Hello, ",
+                    "raw": "\"Hello, \""
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "name": "name"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "generator": false,
+      "expression": false,
+      "async": false
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "greet"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "World",
+            "raw": "\"World\""
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+  #+END_QUOTE
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918084453_Kh9iHj.png]]
+
+  + Why choose Esprima initially?
+    + the paper I read uses Esprima
+  + replace esprima with SWE
+    #+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918071305_fhOKop.png]]
+#+attr_org: :width 30
+[[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250918071336_o6FlkB.png]]
+
++ How to handle literals
+  + String
+    + Treated as an operator
+  + Other literals (e.g., numbers, strings that are not operator names)
+    + Treated as attributes of the e-class

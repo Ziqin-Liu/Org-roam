@@ -1,5 +1,17 @@
 
 
+* What we can do and what we cannot do with fMRI
++ BibTex:[[id:F90F3021-B879-4DFB-A8B1-0E8CA48542CB][logothetis2008what]]
++ Created: [2025-09-16 Tue 07:23]
+
+* Recent theoretical, neural, and clinical advances in sustained attention research
++ BibTex:[[id:C4F65E59-B876-44A3-B398-77A97C65AFDA][fortenbaugh2017recent]]
++ Created: [2025-09-15 Mon 17:06]
+
+* Attention Matters: How Orchestrating Attention May Relate to Classroom Learning
++ BibTex:[[id:C36509E7-50CE-42DC-ACEA-BECADCAE0888][keller2020attention]]
++ Created: [2025-09-15 Mon 16:30]
+
 * Math Abilities in Deaf and Hard of Hearing Children: The Role of Language in Developing Number Concepts
 + BibTex:[[id:B6D71B1F-CD9C-4849-AE76-744781CEB962][santos2022math]]
 + Created: [2025-09-11 Thu 21:35]

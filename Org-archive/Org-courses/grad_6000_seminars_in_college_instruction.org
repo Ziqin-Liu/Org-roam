@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       2A6FD0F2-0F3E-4A89-99A9-E5067E09C687
+:mtime:    20250912144129 20250912141019 20250912133701 20250905133653 20250829145355 20250829135418
+:ctime:    20250829135418
+:END:
+#+title:COURSE GRAD-6000-Seminars in College Instruction NOTE
+#+filetags:  
+* Week 1
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829135556_AdbNBT.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140113_gbDKwF.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140155_idCKkt.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140249_AZyzs7.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140451_UMS2gG.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140615_zICUxc.png]]
+#+attr_org: :width 30
+[[file:grad_6000_seminars_in_college_instruction_note.org_imgs/20250829140630_CWcDia.png]]
+
+* Week 2 09-05-2025
++ take other students' perspective
+
+* Week 3
++ fundamentals of learning
+  + new knowledge is difficult to learn and remember
+  + individual learners build on prior knowledge
+  + how students organize knowledge influences how they learn and apply what they know
+
++ Principle 1: Prior Knowledge
+  quick write: what is the purpose of accessing prior knowledge
+
+  it is the safe way cause it is already been checked, consume less energy, put less effort,
+
++ Ice cube Activity
+  salty water, people use the salt in winter to speed the melt of ice.
+
++ prior knowledge pitfalls: the power of misconceptions
+
++ ice cube activity - reflection
+  productive struggle - take a break
+
++ Accessing prior knowledge
+  peer instruction(think-pair-share)
+  minute papers/reflective writing
+  draw a picture or diagram
+
++ Principle 2: Organize the knowledge
+  + create concept maps
+  + Analyze tasks to identify the most appropriate knowledge organization
+  + explicitly share the organization of each lecture, lab or discussion
+
++ Principle 3: Motivation & Mindset
+  It is normal, you may stuggle, but in one day, you will find you actually make a lot of progress!
+  Don't feel upset
+
+  Avoid some challenges
+
+  fixed mindset
+
+  growth mindset
+
+  foster a growth mindset through feedback
+
+  caution: growth mindset and equity
+
+  if I try hard enough i'll achieve success.
+
+  Your Mindset (as the instructor) Matters
+
+  how might you promote growth mindset and student motivation to learn in your class

@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       0D908AF1-7147-4500-BCA3-AD38A4AEAE31
-:mtime:    20250907184240 20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
+:mtime:    20250916115545 20250907184240 20250903145027 20250825163316 20250823110913 20250823001617 20250822233402 20250822212232 20250822205026
 :ctime:    20250822205026
 :END:
 #+title: Account Management
@@ -8,6 +8,7 @@
 * Table of Contents :toc_2_gh:
 - [[#priciple][Priciple]]
 - [[#professional-account][Professional account]]
+  - [[#apple-id-zacharykimliugmailcom-aze0916][Apple id: zacharykim.liu@gmail.com Aze0916!!]]
   - [[#phone][Phone]]
   - [[#email][email]]
   - [[#shop][shop]]
@@ -23,10 +24,12 @@
 working google account
 ziqin.liu.work@gmail.com
 this account is public, that mean I can show the history, the email etc of this account to the public. the only purpose of this account is to using
-google account, don't use it to signup
+google account, don't use it to signin
 
 
-
+private google account
+zacharykim.liu@gmail.com -> use this to signin -> delete this in the future
+liutzechinh@gmail.com also delete this
 
 working account
 + ziqin.liu@hotmail.com
@@ -36,6 +39,7 @@ working account
 professional account and personal/private account
 
 * Professional account
+** Apple id: zacharykim.liu@gmail.com Aze0916!!
 ** Phone
 
 ** email

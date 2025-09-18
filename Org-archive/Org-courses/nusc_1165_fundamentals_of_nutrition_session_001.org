@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       324B31B4-4694-4005-B157-1D940DB0BE91
+:mtime:    20250910091957 20250903090855 20250830220149 20250829092540 20250827141248 20250827091740 20250825132113 20250825090943
+:ctime:    20250825090943
+:END:
+#+title:COURSE NUSC 1165 Fundamentals of Nutrition (Session 001) NOTE
+#+filetags:  
+* Table of Contents :toc_2_gh:
+- [[#08-25-2025-monday-week-1][08-25-2025 Monday Week 1]]
+- [[#08-27-2025-wedsday-week-1][08-27-2025 Wedsday Week 1]]
+  - [[#availability][Availability]]
+- [[#08-29-2025-friday-week-1][08-29-2025 Friday Week 1]]
+- [[#09-03-2025-wednesday][09-03-2025 Wednesday]]
+- [[#09-10-2025-wednesday][09-10-2025 Wednesday]]
+  - [[#required-information-on-a-food-label][Required information on a Food Label]]
+  - [[#ingredient-list][Ingredient List]]
+
+* 08-25-2025 Monday Week 1
++ do not take attendence
+  
+* 08-27-2025 Wedsday Week 1
+Chapter 1: Intro to Nutrition
+
+Nutrients: chemical substances,
+
+** Availability
++ current health status
++ social and cultural considerations
+  
+* 08-29-2025 Friday Week 1
++ Why want to enroll this class?
+
++ workload, hard to get an A
+
+  micro nutrients
+
+* 09-03-2025 Wednesday
+
+* 09-10-2025 Wednesday
+** Required information on a Food Label
++ Name of Product
++ Sell by date (best quality, the company want their quality to be consistent)
++ Manufacturer, Packager, or Distributor Address ()
++ Nutrition Facts Panel
++ Ingredient List
+
+
+what is daily value
+
+low-fat, low-sodium= less than 5%
+high-fat, high-sodium above 20%
+
+** Ingredient List
+highest weight -> lowest weight

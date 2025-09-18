@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       C4F65E59-B876-44A3-B398-77A97C65AFDA
+:ROAM_REFS: cite:fortenbaugh2017recent
+:mtime:    20250915170705
+:ctime:    20250915170705
+:END:
+#+FILETAGS: fortenbaugh2017recent
+#+title: REVIEW Recent theoretical, neural, and clinical advances in sustained attention research
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: fortenbaugh2017recent
+:URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/nyas.13318
+:NOTER_DOCUMENT: ~/Org-docs/fortenbaugh2017recent.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

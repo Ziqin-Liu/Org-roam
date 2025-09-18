@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       C36509E7-50CE-42DC-ACEA-BECADCAE0888
+:ROAM_REFS: cite:keller2020attention
+:mtime:    20250916193053 20250915163218
+:ctime:    20250915163218
+:END:
+#+FILETAGS: keller2020attention
+#+title: REVIEW Attention Matters: How Orchestrating Attention May Relate to Classroom Learning
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: keller2020attention
+:URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8711818/
+:NOTER_DOCUMENT: ~/Org-docs/keller2020attention.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

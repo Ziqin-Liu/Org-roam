@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       8EC055B0-D5D1-48B9-A734-C957CBE22115
+:mtime:    20250915161515 20250915140442 20250915133246 20250908140342 20250825142237 20250825133404
+:ctime:    20250825133404
+:END:
+#+title: PSYC 5470 Current Topics in Developmental Psychology TRANSCEND Proseminar NOTE
+#+filetags:PSYC5470
+
+* Week 1
+** educational neuroscience
+how the brain learns, behaves, and relates to instructional practices in the classroom
++ Mind brain and education
++ understanding people, understanding learning
+
+cognitive neuroscience methods
++ Neuroimaging and neuromodulation
+  + hemodynamic
+    + fMRI
+    + fNIRS
+    + PET
+  + Electro-magnetic
+    + EEG/ERP
+    + MEG
+    + Intra-cerebral recording (ECoG)
+    + TMS
+    + tDCS
+  + Structure/compositional
+    + sMRI
+    + DWI
+    + MRS
+
+* Week 3
+PRISMA Flow Diagram for Systematic Review Literature Screening.
+
+dateset and citation
+
+the number of arcticle indentify
+
+a lot of removing
+
+what kind of measure we want to
+
+meta-analysis
+task design, do we need the code for? how different they are
+
+start with maximum sets
+
+
+task are important for fmri
+
+quality domain
+
+subsection
+
+three datasets and the citation
+
+gender
+
+* Week 4
+** systematic vs narrative reviews
+systematic review designed to be repeatable
+
+evidence and gap maps, meta-analysis
+
+clear research question, synthesis of evidence
+
+levels of systematic reviews
++ identify relevant studies
++ critically appraise relevant studies
++ synthesize evidence
++ inform policy, practice, or further research
+
+meta-analysis vs systematic review
+
+Problem Formulation
+
+document all changes to the protocol & why
+
+special notes on eligibility criteria
++ publication status
++ studies should not be excluded from a MA/SR just based on sample size/statistical power
+
+the risk of bias
+as inclusive as possible
+
+sample size
+
+documenting
+
+slack
+
+team science
+
+A good method to learn is to keep a doc to write all the terms

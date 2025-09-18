@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       0EA9B8C4-FEF4-4925-BC51-7E0C07E91981
-:mtime:    20250904072838 20250904065410 20250831145636 20250828085158 20250827223425 20250823102242
+:mtime:    20250917213656 20250904072838 20250904065410 20250831145636 20250828085158 20250827223425 20250823102242
 :ctime:    20250823102242
 :END:
 #+title: LRM-assisted JavaScript Deobfuscation SUMMARY
@@ -1076,3 +1076,15 @@ stack overflow
 [[file:lrm_assisted_javascript_deobfuscation_summary.org_imgs/20250904075603_QHWzU5.png]]
 memory allocations
 https://oxc-project.github.io/javascript-parser-in-rust/docs/ast
+
+
+* Week 4
+** Current Progress and Future Plan
+Initialize the egraph(AST) -> extract the sub egraph -> combine the large language model -> automatically rewrite -> test the basic functionality
+Initialize the egraph(code property graph) -> extract the sub egraph -> coombine the large language model -> automatically rewrite -> completely test the functionality
+Construct the dataset -> evaluate the system -> identify the problem, especially the problem of code property graph -> construct a new code property graph which combine the information of JS
+Initialize the egraph (new code property graph) -> extract the sub egraph -> combine with the llm -> automatically rewrite -> fully evaluate the system
+
+** Implementation Challenges
++ the problem of esprima
++ 

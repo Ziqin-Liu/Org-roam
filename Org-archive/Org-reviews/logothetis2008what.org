@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       F90F3021-B879-4DFB-A8B1-0E8CA48542CB
+:ROAM_REFS: cite:logothetis2008what
+:mtime:    20250916072437
+:ctime:    20250916072437
+:END:
+#+FILETAGS: logothetis2008what
+#+title: REVIEW What we can do and what we cannot do with fMRI
+* Table of Contents :toc_2_gh:
+- [[#during-reading][During Reading]]
+
+* During Reading
+:PROPERTIES:
+:Custom_ID: logothetis2008what
+:URL: https://www.nature.com/articles/nature06976
+:NOTER_DOCUMENT: ~/Org-docs/logothetis2008what.pdf
+:NOTER_PAGE:
+:VENUE:
+:END:

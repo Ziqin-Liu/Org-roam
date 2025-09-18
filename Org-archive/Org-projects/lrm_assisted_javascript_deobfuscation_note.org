@@ -1,6 +1,6 @@
 :PROPERTIES:
 :ID:       7F51A9A7-E9D0-4D6A-974A-2F164E8F4C6D
-:mtime:    20250904224820 20250903152517 20250831152359 20250831142501 20250830200755 20250824154417 20250823184412
+:mtime:    20250917164508 20250916180407 20250916080809 20250915195130 20250915192111 20250915185006 20250915174639 20250904224820 20250903152517 20250831152359 20250831142501 20250830200755 20250824154417 20250823184412
 :ctime:    20250823184412
 :END:
 #+title: LRM-assisted JavaScript Deobfuscation NOTE
@@ -109,6 +109,369 @@ while (time, iteration, optimization)
 * The potential problem
 + memory allocation
 + Employing a recursive approach to tree traversal may lead to a stack overflow.
+  
+
 
 * Implementation note:
-+  In Esprima, `AsyncFunctionDeclaration` is not given a separate type name. Both async and non-async functions are classified as `FunctionDeclaration`. The only distinction lies in the `async` field.
+**  In Esprima, `AsyncFunctionDeclaration` is not given a separate type name. Both async and non-async functions are classified as `FunctionDeclaration`. The only distinction lies in the `async` field.
+#+BEGIN_QUOTE
+// see FunctionDeclaration
+// export class AsyncFunctionDeclaration {
+//     readonly type: string;
+//     readonly id: Identifier | null;
+//     readonly params: FunctionParameter[];
+//     readonly body: BlockStatement;
+//     readonly generator: boolean;
+//     readonly expression: boolean;
+//     readonly async: boolean;
+//     constructor(id: Identifier | null, params: FunctionParameter[], body: BlockStatement, generator: boolean) {
+//         this.type = Syntax.FunctionDeclaration;
+//         this.id = id;
+//         this.params = params;
+//         this.body = body;
+//         this.generator = generator;
+//         this.expression = false;
+//         this.async = true;
+//     }
+// }
+
+// export class FunctionDeclaration {
+//     readonly type: string;
+//     readonly id: Identifier | null;
+//     readonly params: FunctionParameter[];
+//     readonly body: BlockStatement;
+//     readonly generator: boolean;
+//     readonly expression: boolean;
+//     readonly async: boolean;
+//     constructor(id: Identifier | null, params: FunctionParameter[], body: BlockStatement, generator: boolean) {
+//         this.type = Syntax.FunctionDeclaration;
+//         this.id = id;
+//         this.params = params;
+//         this.body = body;
+//         this.generator = generator;
+//         this.expression = false;
+//         this.async = false;
+//     }
+// }
+#+END_QUOTE
+
+it is a little bit weird, maybe in the future, we can use the SWE
+ 
+** When converting AST nodes to e-graph nodes, should I introduce a new e-node to explicitly represent a Vec<Id> (a vector of child IDs), or should I simply treat each element’s Id in the vector as a direct child of the parent e-node?
+
+Instead, you should treat the vector as a collection of child IDs for the parent node.
+
+In e-graphs (like egg), each e-node represents a single AST node (operation, expression, etc.), and its children are the IDs of its sub-nodes.
+
+The vector (e.g., params: Vec<FunctionParameter>, elements: Vec<ArrayExpressionElement>) is just a way to store multiple children, not a node itself.
+
+The parent node (e.g., ArrayExpression, ArrowFunctionExpression) should have a field that is a list of child IDs, corresponding to its children.
+
+Another reason I prefer not to introduce a new node to represent a Vec<Id> is to preserve the original tree structure of the AST as closely as possible. This approach maintains a direct correspondence between the AST and the e-graph, making the structure easier to understand and reason about.
+** Handle None
+example
+#+BEGIN_SRC js
+  a = [1,,2]
+#+END_SRC
+its AST
+#+BEGIN_QUOTE
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "a"
+        },
+        "right": {
+          "type": "ArrayExpression",
+          "elements": [
+            {
+              "type": "Literal",
+              "value": 1,
+              "raw": "1"
+            },
+            null,
+            {
+              "type": "Literal",
+              "value": 2,
+              "raw": "2"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+#+END_QUOTE
+
+another example
+#+BEGIN_SRC js
+  const add = (a, b, c) => a + b + c;
+#+END_SRC
+
+Its AST
+#+BEGIN_QUOTE
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "add"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "name": "a"
+              },
+              {
+                "type": "Identifier",
+                "name": "b"
+              },
+              {
+                "type": "Identifier",
+                "name": "c"
+              }
+            ],
+            "body": {
+              "type": "BinaryExpression",
+              "operator": "+",
+              "left": {
+                "type": "BinaryExpression",
+                "operator": "+",
+                "left": {
+                  "type": "Identifier",
+                  "name": "a"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "name": "b"
+                }
+              },
+              "right": {
+                "type": "Identifier",
+                "name": "c"
+              }
+            },
+            "generator": false,
+            "expression": true,
+            "async": false
+          }
+        }
+      ],
+      "kind": "const"
+    }
+  ],
+  "sourceType": "script"
+}
+#+END_QUOTE
+
+** handle string
++ the string is for operator
+#+BEGIN_SRC rust
+  // export class AssignmentExpression {
+//     readonly type: string;
+//     readonly operator: string;
+//     readonly left: Expression;
+//     readonly right: Expression;
+//     constructor(operator: string, left: Expression, right: Expression) {
+//         this.type = Syntax.AssignmentExpression;
+//         this.operator = operator;
+//         this.left = left;
+//         this.right = right;
+//     }
+// }
+#[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
+#[serde(tag = "type")]
+pub struct AssignmentExpression {
+    pub operator: String,
+    pub left: Expression,
+    pub right: Expression,
+}
+#+END_SRC
+
+#+BEGIN_SRC js
+  a += b ;
+#+END_SRC
+
+#+BEGIN_QUOTE
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "+=",
+        "left": {
+          "type": "Identifier",
+          "name": "a"
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "b"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+#+END_QUOTE
+
++ Esprima don't support BigInt operators
+  #+BEGIN_SRC js
+    // BigInt addition
+const a = 1n + 2n; // 3n
+// Division with BigInts round towards zero
+const b = 1n / 2n; // 0n
+// Bitwise operations with BigInts do not truncate either side
+const c = 40000000000000000n >> 2n; // 10000000000000000n
+  #+END_SRC
+
++ Esprima doesn't support Optional chaining (?.)
+  #+BEGIN_SRC JS
+    const adventurer = {
+  name: "Alice",
+  cat: {
+    name: "Dinah",
+  },
+};
+
+const dogName = adventurer.dog?.name;
+console.log(dogName);
+// Expected output: undefined
+
+console.log(adventurer.someNonExistentMethod?.());
+// Expected output: undefined
+  #+END_SRC
+
++ Esprima doesn't support Nullish coalescing operator (??)
+  #+BEGIN_SRC js
+    const foo = null ?? "default string";
+console.log(foo);
+// Expected output: "default string"
+
+const baz = 0 ?? 42;
+console.log(baz);
+// Expected output: 0
+  #+END_SRC
+
++ a potential bug
+  #+BEGIN_SRC js
+    // export class CallExpression {
+//     readonly type: string;
+//     readonly callee: Expression | Import;
+//     readonly arguments: ArgumentListElement[];
+//     readonly optional: boolean;
+//     constructor(callee: Expression | Import, args: ArgumentListElement[], optional: boolean) {
+//         this.type = Syntax.CallExpression;
+//         this.callee = callee;
+//         this.arguments = args;
+//         this.optional = optional;
+//     }
+// }
+  #+END_SRC
+
+  callexpression has a field call optional. However, in the ast tree, I can not find the optional field
+  #+BEGIN_SRC JS
+    function greet(name) {
+  console.log("Hello, " + name);
+}
+
+greet("World");
+  #+END_SRC
+
+  #+BEGIN_QUOTE
+  {
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "greet"
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "name"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "computed": false,
+                "object": {
+                  "type": "Identifier",
+                  "name": "console"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "log"
+                }
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "operator": "+",
+                  "left": {
+                    "type": "Literal",
+                    "value": "Hello, ",
+                    "raw": "\"Hello, \""
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "name": "name"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "generator": false,
+      "expression": false,
+      "async": false
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "Identifier",
+          "name": "greet"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "World",
+            "raw": "\"World\""
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+  #+END_QUOTE
+
++ how to handle Literal
